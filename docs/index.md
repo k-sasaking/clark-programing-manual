@@ -9,7 +9,15 @@
     setTimeout(() =>{
         let footerTags = document.getElementsByTagName("footer");
         footerTags[0].remove();
-    }, 100);
+
+        let h2Tag = document.getElementsByClassName("tag-h2");
+        if(h2Tag){
+            let tags_count = h2Tag.length
+            for(let i=0;i<tags_count;i++){
+                h2Tag[0].remove();
+            }
+        }
+    }, 300);
     // タイトルの設定
     let headers = document.getElementsByTagName("header");
     let titles = headers[0].getElementsByTagName("h1");
@@ -55,15 +63,19 @@ header p {
   margin-top: 10px;
   margin-bottom: 15px;  
 }
+ol li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 </style>
 
 
 # 1. カリキュラムについて
 
-<a data-toggle="collapse" href="#curriculum" aria-expanded="false" aria-controls="curriculum"> カリキュラム（一年間の流れ） </a>
-<div class="collapse" id="curriculum">
+<a data-toggle="collapse" href="#curriculum" aria-expanded="true" aria-controls="curriculum"> カリキュラム（一年間の流れ） </a>
+<div class="collapse show" id="curriculum">
     <div class="border p-3">
-        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQHBu3W-Qh2nCDJi9eC-vRLT83q9YhO7CpLByOwyEBahqT3PlFQXErvjlTVAe0oT9_sPmxIqtcBEi7U/embed?start=true&loop=false&delayms=3000" frameborder="0" width="500" height="297" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQHBu3W-Qh2nCDJi9eC-vRLT83q9YhO7CpLByOwyEBahqT3PlFQXErvjlTVAe0oT9_sPmxIqtcBEi7U/embed?start=true&loop=false&delayms=60000" frameborder="0" width="500" height="297" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
     </div>
 </div>
 
@@ -96,76 +108,101 @@ header p {
     </div>
 </div>
 
-<a data-toggle="collapse" href="#slackTodo" aria-expanded="false" aria-controls="slackTodo"> slackの登録できた人がやること </a>
+<br/>
+
+<a data-toggle="collapse" href="#slackTodo" aria-expanded="false" aria-controls="slackTodo"> slackの登録済みの人がやること４つ </a>
 <div class="collapse" id="slackTodo">
     <div class="border p-3">
+        <h2>①Slackの通知の設定</h2>
         <ol>
-            <li>Slackの通知の設定<br/>
-                <ul>
-                    <li>右上の「clark-programing▼」を押す</li>
-                    <li>環境設定（Prefarence)を押す</li>
-                    <li>
-                    「ダイレクトメッセージ&メンション&キーワード」を選択する<br/>
-                    <img src="img/slack_notification.png" width="500">
-                    </li>
-                </ul>
-            </li>
-            <li>チャンネルに参加<br/>
-                <ul>
-                    <li>「チャンネル +」を押す</li>
-                    <li>チャンネル一覧（Browse）を押す<br/>
-                    <img src="img/slack_browse_channel.png" width="500">
-                    </li>
-                    <li>
-                    以下のチャンネルの「参加する」を押す<br/>
-                        <ul>
-                            <li>連絡</li>
-                            <li>1-x_202X年度</li>
-                        </ul>
-                    <img src="img/slack_join_channel.png" width="500">
-                    </li>
-                </ul>
-            </li>
+            <li>アプリ左上の「<b>clark-programing▼</b>」を押す</li>
+            <li>「<b>環境設定（Preferences)</b>」を押す</li>
             <li>
-                自己紹介チャンネルに自己紹介を記載する<br/>
-                ※他の授業中に送ると他の生徒に通知が入ってしまうので、授業時間を避けて投稿してください。
+            「<b>ダイレクトメッセージ&メンション&キーワード</b>」を選択する<br/>
+            <img src="img/slack_notification.png" width="500">
             </li>
         </ol>
+        <br/>
+        <br/>
+        <h2>②チャンネルに参加</h2>
+        <ol>
+            <li>「<b>チャンネル +</b>」を押す</li>
+            <li>「<b>チャンネル一覧（Browse）</b>」を押す<br/>
+            <img src="img/slack_browse_channel.png" width="500">
+            </li>
+            <li>
+            以下のチャンネルの「<b>参加する</b>」を押す<br/>
+                <ul>
+                    <li><b>連絡</b></li>
+                    <li><b>1-x_202X年度</b></li>
+                </ul>
+            <img src="img/slack_join_channel.png" width="500">
+            </li>
+        </ol>
+        <br/>
+        <br/>
+        <h2>③名前の変更</h2>
+        <p>slackの表示名が自分の名前の人は大丈夫です。</p>
+        <ol>
+            <li>アプリ右上の<b>ユーザーアイコン</b>を押す</li>
+            <li>「<b>プロフィールの編集(Edit Profile)</b>」を押す</li>
+            <li>氏名/表示名を編集する</li>
+        </ol>
+        <br/>
+        <h2>④自己紹介（宿題）</h2>
+        <p> 自己紹介チャンネルに自己紹介を記載する</p>
+        <p>※他の授業中に送ると他の生徒に通知が入ってしまうので、授業時間を避けて投稿してください。</p>
     </div>
 </div>
 
-<a data-toggle="collapse" href="#slackRule" aria-expanded="false" aria-controls="slackRule"> slackの使い方とルール </a>
+<br/>
 
-<div class="collapse" id="slackRule">
+<a data-toggle="collapse" href="#slackRule" aria-expanded="true" aria-controls="slackRule"> slackの使い方とルール（<span style="color:red;"><b>※必読</b></span>） </a>
+
+<div class="collapse show" id="slackRule">
     <div class="border p-3">
-        <span style="color:red;"><b>生徒間のDMは原則禁止です。</b></span><br/>
-        SNS同様、slackの使い方にも情報モラルを持って使ってください。<br/>
-        slack内でのコミュニケーションにおいて校則に反した場合は、生徒指導の対象になりますので、充分注意して使ってください。<br/>
+        <span style="color:red;"><b>生徒間のDMは原則禁止です。</b></span>(slackの登録しているメールアドレスでも原則禁止)<br/>
+        <b>SNS同様、slackの使い方にも情報モラルを持って</b>使ってください。<br/>
+        slack内でのコミュニケーションにおいて、<b>校則に反した場合は、生徒指導の対象になります</b>ので、充分注意して使ってください。<br/>
     </div>
 </div>
+
+<br/>
 
 <div class="m-5"></div>
 
 # 3.Paizaラーニングについて
 
-<a data-toggle="collapse" href="#paizaList" aria-expanded="false" aria-controls="paizaList"> paizaの学習順番 </a>
+<a data-toggle="collapse" href="#paizaList" aria-expanded="false" aria-controls="paizaList"> paizaの学習範囲 </a>
 <div class="collapse" id="paizaList">
     <div class="border p-3">
     <ol>
         <li>「<a href="https://paiza.jp/works/html/primer" target="_blank">HTML/CSS入門</a>」の全てのレッスン</li>
-        <li>「<a href="https://paiza.jp/works/design/primer" target="_blank">Webデザイン入門</a>」一部のレッスン</li>
+        <li>「<a href="https://paiza.jp/works/design/primer" target="_blank">Webデザイン入門</a>」一部のレッスン
+        <p>石井先生より詳細説明</p>
+        </li>
         <li>「<a href="https://paiza.jp/works/javascript/trial" target="_blank">Javascript体験</a>」の全てのレッスン</li>
-        <li>「<a href="https://paiza.jp/works/js/primer" target="_blank">Javascript入門</a>」の全てのレッスン</li>
+        <li>
+        「<a href="https://paiza.jp/works/js/primer" target="_blank">Javascript入門</a>」の全てのレッスン
+        <p>(※Javascript体験と範囲がかぶる場所もありますが、定着確認の目的で演習課題を取り組んでみてください。)</p>
+        </li>
     </ol>
     </div>
 </div>
 
+<br/>
+
 <a data-toggle="collapse" href="#howToQuestion" aria-expanded="false" aria-controls="howToQuestion"> 質問のやり方 </a>
 <div class="collapse" id="howToQuestion">
     <div class="border p-3">
-        Comming Soon...
+        石井先生より詳細説明
     </div>
 </div>
+
+<br/>
+
+<div class="m-5"></div>
+
 
 # 4.よくあるQ&A
 
@@ -205,7 +242,8 @@ header p {
 <a data-toggle="collapse" href="#qa4" aria-expanded="false" aria-controls="qa4"> Q4)授業を休んだ時、どうすれば良いですか？ </a>
 <div class="collapse m-3" id="qa4">
     <div class="border p-3">
-        <p>個別学習の時間に休んだ場合かつ進度が遅い場合は、家庭などで学習</p>
+        <p>こちらのWebサイト、slackのクラスチャンネル、連絡チャンネルより、どんなことをしたかキャッチアップをしてください。</p>
+        <p>また、paizaの個別学習については、休んだ時間分取り組めると、極端に遅れることはないので、取り組んでみてください。</p>
     </div>
 </div>
 
@@ -224,11 +262,17 @@ header p {
     </div>
 </div>
 
-<a data-toggle="collapse" href="#qa6" aria-expanded="false" aria-controls="qa6"> Q6)授業で実施するpaizaラーニングの講座以外の講座に興味があります。受講しても大丈夫ですか？ </a>
+<a data-toggle="collapse" href="#qa7" aria-expanded="false" aria-controls="qa6"> Q6)slackが英語なのですが、日本語設定の方法は？ </a>
 <div class="collapse m-3" id="qa6">
     <div class="border p-3">
-        <p>授業では、HTML/CSSとJavascript体験、Javascript入門を実施しますが、それ以外の言語は授業内では扱いません。</p>
-        <p>他の講座は、各々興味あるものを学習してもらって問題ありません。</p>
-        <p>プログラミング言語は似ているところがあるので、Javascriptで学んだことを他の言語で生かせたり、他の言語で学んだことをJavascriptでも生かせ流ことができるので、多角的に学習し、理解を深めることができます。</p>
+        <ol>
+            <li>アプリ左上の「<b>clark-programing▼</b>」を押す</li>
+            <li>「<b>Preferences</b>」を押す</li>
+            <li>「<b>Language & reagion</b>」を選択する
+            </li>
+            <li>「<b>Language</b>」の選択を「<b>日本語</b>」にする</li>
+        </ol>
     </div>
 </div>
+
+
