@@ -7,11 +7,10 @@
     let bannerTags = document.getElementById("banner");
     bannerTags.remove();
 
-
     // パスワード認証失敗時
     if(password != "clark"){
-        var pageContents = document.getElementById("main_content_wrap");
-        pageContents.innerHTML = "このページにアクセスできませんでした。"
+        var  pageContents= document.getElementsByClassName("wrapper");
+        pageContents[0].innerHTML = "<p>このページにアクセスできませんでした。</p>"
         return
     }
     // タイトルの設定
@@ -34,28 +33,35 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 <style>
+header p {
+    margin: 5px;
+}
 .wrapper h1 {
-  background: #f4f4f4;
   border-bottom: solid 3px black;
-  border-left: solid 5px black;
+  font-size: 30px;
+  margin-top: 3px;
+  margin-bottom: 5px;  
 }
 .wrapper h2 {
   padding: 0.4em 0.5em;
+  font-size: 20px;
   color: #494949;
   background: #f4f4f4;
   border-left: solid 5px #7db4e6;
   border-bottom: solid 3px #d7d7d7;
+  margin-top: 1px;
+  margin-bottom: 3px;  
 }
 </style>
-<div class="m-5"></div>
 
-# Curriculum カリキュラムについて
+
+# 1. カリキュラムについて
 
 <a href="#">カリキュラム（一年間の流れ）</a>
 
 <div class="m-5"></div>
 
-# Slackについて
+# 2. Slackについて
 
 <a href="#"> slackへの登録のやり方 </a>
 
@@ -65,18 +71,20 @@
 
 <div class="m-5"></div>
 
-# Paizaラーニングについて
+# 3.Paizaラーニングについて
 
 <a href="#"> paizaの学習順番 </a>
 
 
 <div class="m-5"></div>
 
-# Other その他
+# 4. その他
 
-## 授業に関することについて
-
+## 4.1 授業について
 <a href="#"> よくあるQ&A </a>
+
+<br/>
+<br/>
 
 それでも解決しない場合は、以下のフォームから連絡したら、先生に連絡が届きます。
 
