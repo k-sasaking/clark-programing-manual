@@ -81,11 +81,10 @@ header p {
             <li> 招待状のメール or <a href="https://join.slack.com/t/clark-programing/shared_invite/zt-pkyw2cmc-4GFSjpdGeAsmGxC5RTQR3w" target="_blank">こちらのリンク</a>から clark-programingの招待ページへアクセス<br/>
             ※招待メールが送られてきてない場合は、石井先生or佐々木先生に伝えてください。</li>
             <li>
-             アカウントを作成する。（※すでにアカウントが存在する人はログイン）<br/>
+            アカウントを作成する。（※すでにアカウントが存在する人はログイン）<br/>
             アカウント作成時に、名前とパスワードが聞かれますので入力してください。<br/>
             </li>
-            <p> ワークスペースにメールアドレスから参加をします。
-            </p>
+            <p> ワークスペースにメールアドレスから参加をします。</p>
         </ol>
     </div>
 </div>
@@ -126,9 +125,12 @@ header p {
 
 <div class="collapse" id="slackRule">
     <div class="border p-3">
-        表示されました！
+        <span style="color:red;"><b>生徒間のDMは原則禁止です。</b></span><br/>
+        SNS同様、slackの使い方にも情報モラルを持って使ってください。<br/>
+        slack内でのコミュニケーションにおいて校則に反した場合は、生徒指導の対象になりますので、充分注意して使ってください。<br/>
     </div>
 </div>
+
 <div class="m-5"></div>
 
 # 3.Paizaラーニングについて
@@ -136,14 +138,19 @@ header p {
 <a data-toggle="collapse" href="#paizaList" aria-expanded="false" aria-controls="paizaList"> paizaの学習順番 </a>
 <div class="collapse" id="paizaList">
     <div class="border p-3">
-        表示されました！
+    <ol>
+        <li>「<a href="https://paiza.jp/works/html/primer" target="_blank">HTML/CSS入門</a>」の全てのレッスン</li>
+        <li>「<a href="https://paiza.jp/works/design/primer" target="_blank">Webデザイン入門</a>」一部のレッスン</li>
+        <li>「<a href="https://paiza.jp/works/javascript/trial" target="_blank">Javascript体験</a>」の全てのレッスン</li>
+        <li>「<a href="https://paiza.jp/works/js/primer" target="_blank">Javascript入門</a>」の全てのレッスン</li>
+    </ol>
     </div>
 </div>
 
 <a data-toggle="collapse" href="#howToQuestion" aria-expanded="false" aria-controls="howToQuestion"> 質問のやり方 </a>
 <div class="collapse" id="howToQuestion">
     <div class="border p-3">
-        表示されました！
+        Comming Soon...
     </div>
 </div>
 
@@ -185,7 +192,7 @@ header p {
 <a data-toggle="collapse" href="#qa4" aria-expanded="false" aria-controls="qa4"> Q4)授業を休んだ時、どうすれば良いですか？ </a>
 <div class="collapse m-3" id="qa4">
     <div class="border p-3">
-        <p>個別学習の時間に休んだ場合かつ進度が遅い場合は、家庭などで学習をしてもらいます。</p>
+        <p>個別学習の時間に休んだ場合かつ進度が遅い場合は、家庭などで学習</p>
     </div>
 </div>
 
@@ -200,7 +207,6 @@ header p {
         </p>
     </div>
 </div>
-
 
 <a data-toggle="collapse" href="#qa6" aria-expanded="false" aria-controls="qa6"> Q6)授業で実施するpaizaラーニングの講座以外の講座に興味があります。受講しても大丈夫ですか？ </a>
 <div class="collapse m-3" id="qa6">
