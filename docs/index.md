@@ -60,21 +60,48 @@ header p {
 
 # 1. カリキュラムについて
 
-<a href="#">カリキュラム（一年間の流れ）</a>
+<a href="https://docs.google.com/presentation/d/1vKrgg9P0KEjqU1F8Klg4-7spXXGYZHZXRabEktoiPNg/edit#slide=id.gd8a095de46_0_0" target="_blank">カリキュラム（一年間の流れ）</a>
 
 <div class="m-5"></div>
 
 # 2. Slackについて
 
-<a href="#"> slackへの登録のやり方 </a>
+<a data-toggle="collapse" href="#slackRegister" aria-expanded="false" aria-controls="slackRegister"> slackへの登録のやり方 </a>
+<div class="collapse" id="slackRegister">
+    <div class="border p-3">
+        表示されました！
+    </div>
+</div>
 
-<a href="#"> slackの登録できた人がやること </a>
+<a data-toggle="collapse" href="#slackTodo" aria-expanded="false" aria-controls="slackTodo"> slackの登録できた人がやること </a>
+<div class="collapse" id="slackTodo">
+    <div class="border p-3">
+        表示されました！
+    </div>
+</div>
 
-<a href="#"> slackの使い方 </a>
+<a data-toggle="collapse" href="#slackRule" aria-expanded="false" aria-controls="slackRule"> slackの使い方とルール </a>
 
+<div class="collapse" id="slackRule">
+    <div class="border p-3">
+        表示されました！
+    </div>
+</div>
 <div class="m-5"></div>
 
 # 3.Paizaラーニングについて
 
-<a href="#"> paizaの学習順番 </a>
+<a data-toggle="collapse" href="#paizaList" aria-expanded="false" aria-controls="paizaList"> paizaの学習順番 </a>
+<div class="collapse" id="paizaList">
+    <div class="border p-3">
+        表示されました！
+    </div>
+</div>
+
+<a data-toggle="collapse" href="#howToQuestion" aria-expanded="false" aria-controls="howToQuestion"> 質問のやり方 </a>
+<div class="collapse" id="howToQuestion">
+    <div class="border p-3">
+        表示されました！
+    </div>
+</div>
 
