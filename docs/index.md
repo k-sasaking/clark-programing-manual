@@ -63,7 +63,7 @@ header p {
 <a data-toggle="collapse" href="#curriculum" aria-expanded="false" aria-controls="curriculum"> カリキュラム（一年間の流れ） </a>
 <div class="collapse" id="curriculum">
     <div class="border p-3">
-        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQHBu3W-Qh2nCDJi9eC-vRLT83q9YhO7CpLByOwyEBahqT3PlFQXErvjlTVAe0oT9_sPmxIqtcBEi7U/embed?start=true&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQHBu3W-Qh2nCDJi9eC-vRLT83q9YhO7CpLByOwyEBahqT3PlFQXErvjlTVAe0oT9_sPmxIqtcBEi7U/embed?start=true&loop=false&delayms=3000" frameborder="0" width="600" height="356" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
     </div>
 </div>
 
@@ -76,14 +76,23 @@ header p {
 <a data-toggle="collapse" href="#slackRegister" aria-expanded="false" aria-controls="slackRegister"> slackへの登録のやり方 </a>
 <div class="collapse" id="slackRegister">
     <div class="border p-3">
-        表示されました！
+        <p>① <a href="https://slack.com/intl/ja-jp/downloads/windows" target="_blank">Slack Download for Windows</a>からslackアプリケーションをダウンロードし、インストールをする（<a href="https://slack.com/intl/ja-jp/help/articles/207691318-%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E7%89%88-Slack-%E3%82%92%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E3%81%99%E3%82%8B" target="_blank">スマホアプリ</a>もあります）</p>
+        <p>② 招待状のメール or <a href="https://join.slack.com/t/clark-programing/shared_invite/zt-pkyw2cmc-4GFSjpdGeAsmGxC5RTQR3w" target="_blank">こちらのリンク</a>から clark-programingの招待ページへアクセス</p>
+        <p>※招待メールが送られてきてない場合は、先生に伝えてください。</p>
+        <p>③ アカウントを作成する。（※すでにアカウントが存在する人はログイン）</p>
+        <p>その際、名前とパスワードが聞かれます。</p>
+        <p>④
     </div>
 </div>
 
 <a data-toggle="collapse" href="#slackTodo" aria-expanded="false" aria-controls="slackTodo"> slackの登録できた人がやること </a>
 <div class="collapse" id="slackTodo">
     <div class="border p-3">
-        表示されました！
+        <ol>
+            <li>チャンネルに参加</li>
+            <li>チャンネルに参加</li>
+            <li>チャンネルに参加</li>
+        </ol>
     </div>
 </div>
 
