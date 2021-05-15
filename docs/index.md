@@ -63,7 +63,7 @@ header p {
 <a data-toggle="collapse" href="#curriculum" aria-expanded="false" aria-controls="curriculum"> カリキュラム（一年間の流れ） </a>
 <div class="collapse" id="curriculum">
     <div class="border p-3">
-        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQHBu3W-Qh2nCDJi9eC-vRLT83q9YhO7CpLByOwyEBahqT3PlFQXErvjlTVAe0oT9_sPmxIqtcBEi7U/embed?start=true&loop=false&delayms=3000" frameborder="0" width="600" height="356" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQHBu3W-Qh2nCDJi9eC-vRLT83q9YhO7CpLByOwyEBahqT3PlFQXErvjlTVAe0oT9_sPmxIqtcBEi7U/embed?start=true&loop=false&delayms=3000" frameborder="0" width="500" height="297" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
     </div>
 </div>
 
@@ -81,7 +81,7 @@ header p {
         <p>※招待メールが送られてきてない場合は、先生に伝えてください。</p>
         <p>③ アカウントを作成する。（※すでにアカウントが存在する人はログイン）</p>
         <p>その際、名前とパスワードが聞かれます。</p>
-        <p>④
+        <p>④</p>
     </div>
 </div>
 
@@ -121,3 +121,25 @@ header p {
     </div>
 </div>
 
+# 4.よくあるQ&A
+
+<a class="mt-3" data-toggle="collapse" href="#qa1" aria-expanded="false" aria-controls="qa1"> paizaのログインパスワードを忘れました </a>
+<div class="collapse" id="qa1">
+    <div class="border p-3">
+        <ol>
+            <li><a href="https://paiza.jp/password_resets" target="_blank">paizaのログインページへアクセス</a></li>
+            <li>「パスワードを忘れた方はこちら」を押す</li>
+            <li>「登録済みのメールアドレスを入力」し、「再設定メール送付」をする</li>
+            <li>メールにログインをし、URLからパスワードを再設定する</li>
+        </ol>
+    </div>
+</div>
+
+<a class="mt-3" data-toggle="collapse" href="#qa1" aria-expanded="false" aria-controls="qa1"> paizaに登録したメールにログインできません。 </a>
+<div class="collapse" id="qa1">
+    <div class="border p-3">
+        <ol>
+            <li>中村先生もしくは石井先生に相談してください。</li>
+        </ol>
+    </div>
+</div>
