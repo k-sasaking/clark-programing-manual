@@ -6,13 +6,10 @@
     // 不要なバナー & フッター削除
     let bannerTags = document.getElementById("banner");
     bannerTags.remove();
-
-    // パスワード認証失敗時
-    if(password != "clark"){
-        var  pageContents= document.getElementsByClassName("wrapper");
-        pageContents[0].innerHTML = "<p>このページにアクセスできませんでした。</p>"
-        return
-    }
+    setTimeout(() =>{
+        let footerTags = document.getElementsByTagName("footer");
+        footerTags[0].remove();
+    }, 100);
     // タイトルの設定
     let headers = document.getElementsByTagName("header");
     let titles = headers[0].getElementsByTagName("h1");
@@ -20,10 +17,13 @@
     let descriptions = headers[0].getElementsByTagName("p");
     descriptions[0].innerText = "このページは、プログラミング基礎で伝えたことを休んだ人でも後から復習して見られるようにしたページです。\n授業を休んだり聞き逃したら、こちらのページを確認するようにしてください。"
 
-    setTimeout(() =>{
-        let footerTags = document.getElementsByTagName("footer");
-        footerTags[0].remove();
-    }, 1000);
+    // パスワード認証失敗時
+    if(password != "clark"){
+        var  pageContents= document.getElementsByClassName("wrapper");
+        pageContents[0].innerHTML = '<h1 style="margin: 50px;">このページにアクセスできませんでした。</h1>'
+        headers[0].remove();
+        return
+    }
 
 })();
 </script>
@@ -33,14 +33,17 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 <style>
+header h1 {
+    margin-bottom: 30px;
+}
 header p {
-    margin: 5px;
+    margin: 10px;
 }
 .wrapper h1 {
   border-bottom: solid 3px black;
   font-size: 30px;
-  margin-top: 3px;
-  margin-bottom: 5px;  
+  margin-top: 15px;
+  margin-bottom: 30px;  
 }
 .wrapper h2 {
   padding: 0.4em 0.5em;
@@ -49,8 +52,8 @@ header p {
   background: #f4f4f4;
   border-left: solid 5px #7db4e6;
   border-bottom: solid 3px #d7d7d7;
-  margin-top: 1px;
-  margin-bottom: 3px;  
+  margin-top: 10px;
+  margin-bottom: 15px;  
 }
 </style>
 
@@ -86,19 +89,58 @@ header p {
 <br/>
 <br/>
 
+## 4.2 問い合わせ
 それでも解決しない場合は、以下のフォームから連絡したら、先生に連絡が届きます。
 
-<form>
-<label>生徒氏名：</label><input class="form-control" type="text" />
+<label>生徒氏名：</label><input id="studentName" class="form-control" type="text" />
 <br/>
 <label>問い合わせ内容：</label>
 <br/>
-<textarea  class="form-control" rows="5"></textarea>
+<textarea id="studentText" class="form-control" rows="5"></textarea>
 <br/>
-<button type="submit" class="form-control btn btn-primary"> 送信 </button>
-</form>
+<a id="inquiry" class="form-control btn btn-primary"> 送信 </a>
 
+<script>
+const url = 'https://hooks.slack.com/services/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'
+const sendSlack = (messageText) => {
+    const payload = {"text": messageText};
+    const options =
+    {
+        "method":"POST",
+        "headers":
+        {
+            "Content-Type":"application/json"
+        },
+        "body": JSON.stringify(payload)
+    };
+    fetch(url, options)
+      .then((response) => {
+        console.log(response)
+        if (!response.ok) {
+          alert('エラーです')
+        }
+        else {
+                let studentName =  document.getElementById("studentName");
+                let studentText = document.getElementById("studentText");
+        }
+      })
+      .catch((error) => {
+        console.log(error.message)
+      })
+  }
 
+let inquiry = document.getElementById("inquiry");
+inquiry.addEventListener("click", ()=>{
+    if (!confirm("先生へメッセージを送信しますか？"))
+        return
+    
+    let studentName =  document.getElementById("studentName");
+    let studentText = document.getElementById("studentText");
+    let message = "生徒: " + studentName;
+    message += "\nメッセージ:\n" + studentText;
+    sendSlack(message);    
+})
+</script>
 
 
 
