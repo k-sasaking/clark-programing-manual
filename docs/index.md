@@ -76,12 +76,17 @@ header p {
 <a data-toggle="collapse" href="#slackRegister" aria-expanded="false" aria-controls="slackRegister"> slackへの登録のやり方 </a>
 <div class="collapse" id="slackRegister">
     <div class="border p-3">
-        <p>① <a href="https://slack.com/intl/ja-jp/downloads/windows" target="_blank">Slack Download for Windows</a>からslackアプリケーションをダウンロードし、インストールをする（<a href="https://slack.com/intl/ja-jp/help/articles/207691318-%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E7%89%88-Slack-%E3%82%92%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E3%81%99%E3%82%8B" target="_blank">スマホアプリ</a>もあります）</p>
-        <p>② 招待状のメール or <a href="https://join.slack.com/t/clark-programing/shared_invite/zt-pkyw2cmc-4GFSjpdGeAsmGxC5RTQR3w" target="_blank">こちらのリンク</a>から clark-programingの招待ページへアクセス</p>
-        <p>※招待メールが送られてきてない場合は、先生に伝えてください。</p>
-        <p>③ アカウントを作成する。（※すでにアカウントが存在する人はログイン）</p>
-        <p>その際、名前とパスワードが聞かれます。</p>
-        <p>④</p>
+        <ol>
+            <li> <a href="https://slack.com/intl/ja-jp/downloads/windows" target="_blank">Slack Download for Windows</a>からslackアプリケーションをダウンロードし、インストールをする（<a href="https://slack.com/intl/ja-jp/help/articles/207691318-%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E7%89%88-Slack-%E3%82%92%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E3%81%99%E3%82%8B" target="_blank">スマホアプリ</a>もあります）</li>
+            <li> 招待状のメール or <a href="https://join.slack.com/t/clark-programing/shared_invite/zt-pkyw2cmc-4GFSjpdGeAsmGxC5RTQR3w" target="_blank">こちらのリンク</a>から clark-programingの招待ページへアクセス<br/>
+            ※招待メールが送られてきてない場合は、石井先生or佐々木先生に伝えてください。</li>
+            <li>
+             アカウントを作成する。（※すでにアカウントが存在する人はログイン）<br/>
+            アカウント作成時に、名前とパスワードが聞かれますので入力してください。<br/>
+            </li>
+            <p> ワークスペースにメールアドレスから参加をします。
+            </p>
+        </ol>
     </div>
 </div>
 
@@ -89,9 +94,30 @@ header p {
 <div class="collapse" id="slackTodo">
     <div class="border p-3">
         <ol>
-            <li>チャンネルに参加</li>
-            <li>チャンネルに参加</li>
-            <li>チャンネルに参加</li>
+            <li>Slackの通知の設定<br/>
+                <ul>
+                    <li>右上の「clark-programing▼」を押す</li>
+                    <li>環境設定（Prefarence)を押す</li>
+                    <li>「」を選択する</li>
+                </ul>
+            </li>
+            <li>チャンネルに参加<br/>
+                <ul>
+                    <li>「チャンネル +」を押す</li>
+                    <li>チャンネル一覧（Browse）を押す</li>
+                    <li>
+                    以下のチャンネルの「参加する」を押す<br/>
+                        <ul>
+                            <li>連絡</li>
+                            <li>1-x_202X年度</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                自己紹介チャンネルに自己紹介を記載する<br/>
+                ※他の授業中に送ると他の生徒に通知が入ってしまうので、授業時間を避けて投稿してください。
+            </li>
         </ol>
     </div>
 </div>
@@ -123,8 +149,8 @@ header p {
 
 # 4.よくあるQ&A
 
-<a class="mt-3" data-toggle="collapse" href="#qa1" aria-expanded="false" aria-controls="qa1"> paizaのログインパスワードを忘れました </a>
-<div class="collapse" id="qa1">
+<a data-toggle="collapse" href="#qa1" aria-expanded="false" aria-controls="qa1"> Q1)paizaのログインパスワードを忘れました </a>
+<div class="collapse m-3" id="qa1">
     <div class="border p-3">
         <ol>
             <li><a href="https://paiza.jp/password_resets" target="_blank">paizaのログインページへアクセス</a></li>
@@ -135,11 +161,52 @@ header p {
     </div>
 </div>
 
-<a class="mt-3" data-toggle="collapse" href="#qa1" aria-expanded="false" aria-controls="qa1"> paizaに登録したメールにログインできません。 </a>
-<div class="collapse" id="qa1">
+<a data-toggle="collapse" href="#qa2" aria-expanded="false" aria-controls="qa2"> Q2)paizaに登録したメールにログインできません。 </a>
+<div class="collapse m-3" id="qa2">
     <div class="border p-3">
         <ol>
             <li>中村先生もしくは石井先生に相談してください。</li>
         </ol>
+    </div>
+</div>
+
+<a data-toggle="collapse" href="#qa3" aria-expanded="false" aria-controls="qa3"> Q3)slackの招待メールが来ません。 </a>
+<div class="collapse m-3" id="qa3">
+    <div class="border p-3">
+        <ol>
+            <li>
+            石井先生か佐々木先生に相談してください。<br/>
+            もしくは、<a href="https://join.slack.com/t/clark-programing/shared_invite/zt-pkyw2cmc-4GFSjpdGeAsmGxC5RTQR3w" target="_blank">こちらのリンク</a>から招待メールなしで参加できます。
+            </li>
+        </ol>
+    </div>
+</div>
+
+<a data-toggle="collapse" href="#qa4" aria-expanded="false" aria-controls="qa4"> Q4)授業を休んだ時、どうすれば良いですか？ </a>
+<div class="collapse m-3" id="qa4">
+    <div class="border p-3">
+        <p>個別学習の時間に休んだ場合かつ進度が遅い場合は、家庭などで学習をしてもらいます。</p>
+    </div>
+</div>
+
+<a data-toggle="collapse" href="#qa5" aria-expanded="false" aria-controls="qa5"> Q5)タイピングが苦手です。何か良い方法はありますか？また、どのくらいのタイピング能力があると良いですか？ </a>
+<div class="collapse m-3" id="qa5">
+    <div class="border p-3">
+        <p>
+        <a href="https://www.pken.com/tool/typing.html">P検タイピング</a>がおすすめです。<br/>
+        こちらのサイトの「日本語入力」のゲームを5分設定で実施すると、P検○級レベルと出ます。<br/>
+        3級レベルくらいあると良いかもです。準2級レベルあれば十分だと思います。<br/>
+        タイピングは量をこなせば誰でも結果が出てくるので、基本ポジションを覚えて頑張りましょう！
+        </p>
+    </div>
+</div>
+
+
+<a data-toggle="collapse" href="#qa6" aria-expanded="false" aria-controls="qa6"> Q6)授業で実施するpaizaラーニングの講座以外の講座に興味があります。受講しても大丈夫ですか？ </a>
+<div class="collapse m-3" id="qa6">
+    <div class="border p-3">
+        <p>授業では、HTML/CSSとJavascript体験、Javascript入門を実施しますが、それ以外の言語は授業内では扱いません。</p>
+        <p>他の講座は、各々興味あるものを学習してもらって問題ありません。</p>
+        <p>プログラミング言語は似ているところがあるので、Javascriptで学んだことを他の言語で生かせたり、他の言語で学んだことをJavascriptでも生かせ流ことができるので、多角的に学習し、理解を深めることができます。</p>
     </div>
 </div>
