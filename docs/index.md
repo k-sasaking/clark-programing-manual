@@ -60,9 +60,16 @@ header p {
 
 # 1. カリキュラムについて
 
-<a href="https://docs.google.com/presentation/d/1vKrgg9P0KEjqU1F8Klg4-7spXXGYZHZXRabEktoiPNg/edit#slide=id.gd8a095de46_0_0" target="_blank">カリキュラム（一年間の流れ）</a>
+<a data-toggle="collapse" href="#curriculum" aria-expanded="false" aria-controls="curriculum"> カリキュラム（一年間の流れ） </a>
+<div class="collapse" id="curriculum">
+    <div class="border p-3">
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQHBu3W-Qh2nCDJi9eC-vRLT83q9YhO7CpLByOwyEBahqT3PlFQXErvjlTVAe0oT9_sPmxIqtcBEi7U/embed?start=true&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    </div>
+</div>
+
 
 <div class="m-5"></div>
+
 
 # 2. Slackについて
 
