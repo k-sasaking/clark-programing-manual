@@ -79,12 +79,19 @@ header p {
         <ol>
             <li> <a href="https://slack.com/intl/ja-jp/downloads/windows" target="_blank">Slack Download for Windows</a>からslackアプリケーションをダウンロードし、インストールをする（<a href="https://slack.com/intl/ja-jp/help/articles/207691318-%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E7%89%88-Slack-%E3%82%92%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E3%81%99%E3%82%8B" target="_blank">スマホアプリ</a>もあります）</li>
             <li> 招待状のメール or <a href="https://join.slack.com/t/clark-programing/shared_invite/zt-pkyw2cmc-4GFSjpdGeAsmGxC5RTQR3w" target="_blank">こちらのリンク</a>から clark-programingの招待ページへアクセス<br/>
-            ※招待メールが送られてきてない場合は、石井先生or佐々木先生に伝えてください。</li>
-            <li>
-            アカウントを作成する。（※すでにアカウントが存在する人はログイン）<br/>
-            アカウント作成時に、名前とパスワードが聞かれますので入力してください。<br/>
+            ※招待メールが送られてきてない場合は、石井先生or佐々木先生に伝えてください。
+            <br/>
+            <p>招待メールの場合は、JoinNowをクリック</p>
+            <img src="img/slack_join_now.png" width="500">
             </li>
-            <p> ワークスペースにメールアドレスから参加をします。</p>
+            <li>
+            アカウントを作成する。<br/>
+            アカウント作成時に、名前とパスワードが聞かれますので入力してください。<br/>
+            <img src="img/slack_create_account.png" width="500">
+            <br/>
+            <p>もし、以下のような画面が出てきたら、メールアドレスを入力してください。</p>
+            <img src="img/slack_app.png" width="500">
+            </li>
         </ol>
     </div>
 </div>
@@ -97,19 +104,25 @@ header p {
                 <ul>
                     <li>右上の「clark-programing▼」を押す</li>
                     <li>環境設定（Prefarence)を押す</li>
-                    <li>「」を選択する</li>
+                    <li>
+                    「ダイレクトメッセージ&メンション&キーワード」を選択する<br/>
+                    <img src="img/slack_notification.png" width="500">
+                    </li>
                 </ul>
             </li>
             <li>チャンネルに参加<br/>
                 <ul>
                     <li>「チャンネル +」を押す</li>
-                    <li>チャンネル一覧（Browse）を押す</li>
+                    <li>チャンネル一覧（Browse）を押す<br/>
+                    <img src="img/slack_browse_channel.png" width="500">
+                    </li>
                     <li>
                     以下のチャンネルの「参加する」を押す<br/>
                         <ul>
                             <li>連絡</li>
                             <li>1-x_202X年度</li>
                         </ul>
+                    <img src="img/slack_join_channel.png" width="500">
                     </li>
                 </ul>
             </li>
@@ -200,9 +213,12 @@ header p {
 <div class="collapse m-3" id="qa5">
     <div class="border p-3">
         <p>
-        <a href="https://www.pken.com/tool/typing.html">P検タイピング</a>がおすすめです。<br/>
-        こちらのサイトの「日本語入力」のゲームを5分設定で実施すると、P検○級レベルと出ます。<br/>
-        3級レベルくらいあると良いかもです。準2級レベルあれば十分だと思います。<br/>
+        <a href="https://www.pken.com/tool/typing.html">P検タイピング</a>がおすすめです。</p>
+        <p>
+        こちらのサイトの「<b>日本語入力</b>」のゲームを<b>5分</b>設定で実施すると、P検○級レベルと出ます。<br/>
+        <b>3級レベルあると良い</b>かもです。<b>準2級レベルあれば十分</b>だと思います。
+        </p>
+        <p>
         タイピングは量をこなせば誰でも結果が出てくるので、基本ポジションを覚えて頑張りましょう！
         </p>
     </div>
