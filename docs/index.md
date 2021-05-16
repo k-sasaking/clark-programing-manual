@@ -200,7 +200,7 @@ ol li{
         <br/>
         <h2>④自己紹介（宿題）</h2>
         <p> 自己紹介チャンネルに自己紹介を記載する</p>
-        <p>※他の授業中に送ると他の生徒に通知が入ってしまうので、授業時間を避けて投稿してください。</p>
+        <p>※他の授業中に送ると他の生徒に通知が入ってしまうので、<b>授業時間を避けて投稿</b>してください。</p>
     </div>
 </div>
 
@@ -222,6 +222,28 @@ ol li{
 <div class="m-5"></div>
 
 # 3.Paizaラーニングについて
+
+
+<a data-toggle="collapse" href="#howToLearning" aria-expanded="true" aria-controls="howToLearning"> 学習のやり方 </a>
+<div class="collapse show" id="howToLearning">
+    <div class="border p-3">
+        <ol>
+            <li><a href="https://paiza.jp/works/courses" target="_blank">paizaラーニング</a>にログインし、コースを選択します。</li>
+            <li>レッスン -> チャプターを選択します。</li>
+            <li>演習課題がある課題については、演習課題を必ずやるようにしてください。<br/>
+                <img src="img/paiza_practice.png" width="500"/><br/>
+                <p>演習問題が複数ある場合もあるので注意</p>
+                <img src="img/paiza_practice2.png" width="500"/><br/>
+            </li>
+            <li>
+                演習課題がsuccessになったらチャプター完了です。<br/>１つのチャプターに複数の演習課題がある場合もあるので、全ての課題をクリアの状態にしてください。<br/>
+                <img src="img/paiza_chapter_finish.png" width="500"/><br/>                
+            </li>
+        </ol>
+        <p>※イヤホンを必ず持参してください。イヤホンは学校側で予備がありません。<br/></p>
+    </div>
+</div>
+
 
 <a id="paizaRange" data-toggle="collapse" href="#paizaList" aria-expanded="false" aria-controls="paizaList"> paizaの学習範囲 </a>
 <div class="collapse" id="paizaList">
@@ -264,8 +286,8 @@ ol li{
 
 <br/>
 
-<a data-toggle="collapse" href="#howToQuestion" aria-expanded="false" aria-controls="howToQuestion"> 質問のやり方 </a>
-<div class="collapse" id="howToQuestion">
+<a data-toggle="collapse" href="#howToQuestion" aria-expanded="true" aria-controls="howToQuestion"> 質問のやり方 </a>
+<div class="collapse show" id="howToQuestion">
     <div class="border p-3">
         <h2>わからないことがあった時の手順</h2>
         <ol>
