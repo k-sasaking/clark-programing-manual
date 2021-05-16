@@ -93,6 +93,9 @@ ol li{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.header--unpinned {
+    display: none;
+}
 </style>
 
 
@@ -208,7 +211,7 @@ ol li{
 
 <br/>
 
-<a class="btn btn-primary" data-toggle="collapse" href="#slackRule" aria-expanded="true" aria-controls="slackRule"> slackの使い方とルール（<span style="color:red;"><b>※必読</b></span>） </a>
+<a class="btn btn-primary" data-toggle="collapse" href="#slackRule" aria-expanded="true" aria-controls="slackRule"> slackの使い方とルール </a>（<span style="color:red;"><b>※必読</b></span>）
 
 <div class="collapse show" id="slackRule">
     <div class="border p-3">
@@ -388,4 +391,30 @@ ol li{
     </div>
 </div>
 
+<script>
+(()=>{
+    var hd = document.getElementsByTagName('header')
+    var hd_size = hd[0].clientHeight; 
+    var pos = 0;
+    window.addEventListener('scroll', () => {    
+        var current_pos = window.pageYOffset; 
+        // UP
+        if (current_pos < pos || current_pos > hd_size) {
+            console.log("up")
+            if(hd[0].classList.length != 0){
+                hd[0].classList.remove('d-none');
+            }            
+        }
+        // DOWN
+        else {
+            if(current_pos > hd_size){
+                if(hd[0].classList.length == 0){
+                    hd[0].classList.add('d-none');
+                }
+            }
+        }
+        pos = current_pos;
+    });
+})();
+</script>
 
