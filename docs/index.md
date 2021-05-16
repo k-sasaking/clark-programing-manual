@@ -115,7 +115,7 @@ ol li{
     <div class="border p-3">
         <p class="text-center">HTML/CSS入門編 （<a href="#paizaRange">Paizaの学習範囲</a>）</p>
         <p class="text-center">↓</p>
-        <p class="text-center">Webデザイン入門（<a href="#paizaRange">Paizaの学習範囲</a>）</p>
+        <p class="text-center">Webデザイン入門（<a href="#paizaRange">Paizaの学習範囲</a>）<span style="color:red;">New</span></p>
         <p class="text-center">↓</p>
         <p class="text-center">自己紹介HP製作</p>
         <p class="text-center">↓</p>
@@ -164,7 +164,7 @@ ol li{
 
 <br/>
 
-<a class="btn btn-primary" data-toggle="collapse" href="#slackTodo" aria-expanded="false" aria-controls="slackTodo"> slackの登録済みの人がやること４つ </a>
+<a class="btn btn-primary" data-toggle="collapse" href="#slackTodo" aria-expanded="false" aria-controls="slackTodo"> slackの登録済みの人がやること４つ </a> <span style="color:red;">New</span>
 <div class="collapse" id="slackTodo">
     <div class="border p-3">
         <h2>①Slackの通知の設定</h2>
@@ -211,7 +211,7 @@ ol li{
 
 <br/>
 
-<a class="btn btn-primary" data-toggle="collapse" href="#slackRule" aria-expanded="true" aria-controls="slackRule"> slackの使い方とルール </a>（<span style="color:red;"><b>※必読</b></span>）
+<a class="btn btn-primary" data-toggle="collapse" href="#slackRule" aria-expanded="true" aria-controls="slackRule"> slackの使い方とルール </a>（<span style="color:red;"><b>※必読</b></span>）<span style="color:red;">New</span>
 
 <div class="collapse show" id="slackRule">
     <div class="border p-3">
@@ -251,7 +251,7 @@ ol li{
 
 <br/>
 
-<a class="btn btn-primary" id="paizaRange" data-toggle="collapse" href="#paizaList" aria-expanded="false" aria-controls="paizaList"> paizaの学習範囲 </a>
+<a class="btn btn-primary" id="paizaRange" data-toggle="collapse" href="#paizaList" aria-expanded="false" aria-controls="paizaList"> paizaの学習範囲 </a> <span style="color:red;">New</span>
 <div class="collapse" id="paizaList">
     <div class="border p-3">
     <table>
@@ -293,7 +293,7 @@ ol li{
 
 <br/>
 
-<a class="btn btn-primary" data-toggle="collapse" href="#howToQuestion" aria-expanded="true" aria-controls="howToQuestion"> 質問のやり方 </a>
+<a class="btn btn-primary" data-toggle="collapse" href="#howToQuestion" aria-expanded="true" aria-controls="howToQuestion"> 質問のやり方 </a> <span style="color:red;">New</span>
 <div class="collapse show" id="howToQuestion">
     <div class="border p-3">
         <h2>わからないことがあった時の手順</h2>
