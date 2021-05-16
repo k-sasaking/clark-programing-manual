@@ -4,9 +4,9 @@
         
         プログラミング学習は、言語学習と同じで使えば使うほど上達します。
         
-        どんどん上達するコツは、たくさんコードを書くことです。
+        どんどん上達するコツは、たくさん「アウトプット」をすることです。
 
-        一緒に頑張りましょう！
+        どんどんコードを書いて、スキルアップをしていきましょう！
 
 -->
 <script>
@@ -98,7 +98,7 @@ ol li{
 
 # 1. カリキュラムについて
 
-<a data-toggle="collapse" href="#curriculum" aria-expanded="true" aria-controls="curriculum"> カリキュラム（一年間の流れ） </a>
+<a class="btn btn-primary" data-toggle="collapse" href="#curriculum" aria-expanded="true" aria-controls="curriculum"> カリキュラム（一年間の流れ） </a>
 <div class="collapse show" id="curriculum">
     <div class="border p-3">
         <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQHBu3W-Qh2nCDJi9eC-vRLT83q9YhO7CpLByOwyEBahqT3PlFQXErvjlTVAe0oT9_sPmxIqtcBEi7U/embed?start=true&loop=false&delayms=60000" frameborder="0" width="500" height="297" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -107,7 +107,7 @@ ol li{
 
 <br/>
 
-<a data-toggle="collapse" href="#curriculumFlow" aria-expanded="true" aria-controls="curriculumFlow"> 学習の流れ詳細 </a>
+<a id="flow" class="btn btn-primary" data-toggle="collapse" href="#curriculumFlow" aria-expanded="true" aria-controls="curriculumFlow"> 学習の流れ詳細 </a>
 <div class="collapse show" id="curriculumFlow">
     <div class="border p-3">
         <p class="text-center">HTML/CSS入門編 （<a href="#paizaRange">Paizaの学習範囲</a>）</p>
@@ -134,23 +134,25 @@ ol li{
 
 # 2. Slackについて
 
-<a data-toggle="collapse" href="#slackRegister" aria-expanded="false" aria-controls="slackRegister"> slackへの登録のやり方 </a>
+<a class="btn btn-primary" data-toggle="collapse" href="#slackRegister" aria-expanded="false" aria-controls="slackRegister"> slackへの登録のやり方 </a>
 <div class="collapse" id="slackRegister">
     <div class="border p-3">
         <ol>
             <li> <a href="https://slack.com/intl/ja-jp/downloads/windows" target="_blank">Slack Download for Windows</a>からslackアプリケーションをダウンロードし、インストールをする（<a href="https://slack.com/intl/ja-jp/help/articles/207691318-%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E7%89%88-Slack-%E3%82%92%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E3%81%99%E3%82%8B" target="_blank">スマホアプリ</a>もあります）</li>
-            <li> 招待状のメール or <a href="https://join.slack.com/t/clark-programing/shared_invite/zt-pkyw2cmc-4GFSjpdGeAsmGxC5RTQR3w" target="_blank">こちらのリンク</a>から clark-programingの招待ページへアクセス<br/>
-            ※招待メールが送られてきてない場合は、石井先生or佐々木先生に伝えてください。
             <br/>
-            <p>招待メールの場合は、JoinNowをクリック</p>
+            <li> <p>招待状のメール or <a href="https://join.slack.com/t/clark-programing/shared_invite/zt-pkyw2cmc-4GFSjpdGeAsmGxC5RTQR3w" target="_blank">こちらのリンク</a>から clark-programingの招待ページへアクセス</p>
+            <br/>
+            <p>※招待メールが送られてきてない場合は、石井先生or佐々木先生に伝えてください。</p>
+            <br/>
+            <p>招待メールの場合は、<b>JoinNow</b>をクリック</p>
             <img src="img/slack_join_now.png" width="500">
             </li>
             <li>
             アカウントを作成する。<br/>
-            アカウント作成時に、名前とパスワードが聞かれますので入力してください。<br/>
+            アカウント作成時に、<b>名前とパスワード</b>が聞かれますので入力してください。<br/>
             <img src="img/slack_create_account.png" width="500">
             <br/>
-            <p>もし、以下のような画面が出てきたら、メールアドレスを入力してください。</p>
+            <p>もし、以下のような画面が出てきたら、<b>メールアドレス</b>を入力してください。</p>
             <img src="img/slack_app.png" width="500">
             </li>
         </ol>
@@ -159,7 +161,7 @@ ol li{
 
 <br/>
 
-<a data-toggle="collapse" href="#slackTodo" aria-expanded="false" aria-controls="slackTodo"> slackの登録済みの人がやること４つ </a>
+<a class="btn btn-primary" data-toggle="collapse" href="#slackTodo" aria-expanded="false" aria-controls="slackTodo"> slackの登録済みの人がやること４つ </a>
 <div class="collapse" id="slackTodo">
     <div class="border p-3">
         <h2>①Slackの通知の設定</h2>
@@ -206,7 +208,7 @@ ol li{
 
 <br/>
 
-<a data-toggle="collapse" href="#slackRule" aria-expanded="true" aria-controls="slackRule"> slackの使い方とルール（<span style="color:red;"><b>※必読</b></span>） </a>
+<a class="btn btn-primary" data-toggle="collapse" href="#slackRule" aria-expanded="true" aria-controls="slackRule"> slackの使い方とルール（<span style="color:red;"><b>※必読</b></span>） </a>
 
 <div class="collapse show" id="slackRule">
     <div class="border p-3">
@@ -224,28 +226,29 @@ ol li{
 # 3.Paizaラーニングについて
 
 
-<a data-toggle="collapse" href="#howToLearning" aria-expanded="true" aria-controls="howToLearning"> 学習のやり方 </a>
+<a class="btn btn-primary" data-toggle="collapse" href="#howToLearning" aria-expanded="true" aria-controls="howToLearning"> 学習のやり方 </a>
 <div class="collapse show" id="howToLearning">
     <div class="border p-3">
         <ol>
-            <li><a href="https://paiza.jp/works/courses" target="_blank">paizaラーニング</a>にログインし、コースを選択します。</li>
-            <li>レッスン -> チャプターを選択します。</li>
-            <li>演習課題がある課題については、演習課題を必ずやるようにしてください。<br/>
+            <li><a href="https://paiza.jp/works/courses" target="_blank">paizaラーニング</a>にログインし、学習する<b>コース</b>を選択します。</li>
+            <li><b>レッスン</b>を選択 -> <b>チャプター</b>を選択します。</li>
+            <li>演習課題がある課題については、<b>演習課題を必ずやる</b>ようにしてください。<br/>
                 <img src="img/paiza_practice.png" width="500"/><br/>
                 <p>演習問題が複数ある場合もあるので注意</p>
                 <img src="img/paiza_practice2.png" width="500"/><br/>
             </li>
             <li>
-                演習課題がsuccessになったらチャプター完了です。<br/>１つのチャプターに複数の演習課題がある場合もあるので、全ての課題をクリアの状態にしてください。<br/>
+                <全ての演習課題がsuccessになったらチャプター完了です。<br/>以下の画面のように、<b>全ての演習課題をクリア</b>かつ<b>受講済</b>にしてください。<br/>
                 <img src="img/paiza_chapter_finish.png" width="500"/><br/>                
             </li>
         </ol>
-        <p>※イヤホンを必ず持参してください。イヤホンは学校側で予備がありません。<br/></p>
+        <p>※<span style="color:red;"><b>イヤホンを必ず持参してください。</b></span>イヤホンは学校側で予備がありません。<br/></p>
     </div>
 </div>
 
+<br/>
 
-<a id="paizaRange" data-toggle="collapse" href="#paizaList" aria-expanded="false" aria-controls="paizaList"> paizaの学習範囲 </a>
+<a class="btn btn-primary" id="paizaRange" data-toggle="collapse" href="#paizaList" aria-expanded="false" aria-controls="paizaList"> paizaの学習範囲 </a>
 <div class="collapse" id="paizaList">
     <div class="border p-3">
     <table>
@@ -281,12 +284,13 @@ ol li{
             <td>全てのレッスン</td>
         </tr>
     </table>
+    <p>学習の順番は、<a href="#flow">カリキュラムの「学習の流れ詳細」</a>を参照してください。</p>
     </div>
 </div>
 
 <br/>
 
-<a data-toggle="collapse" href="#howToQuestion" aria-expanded="true" aria-controls="howToQuestion"> 質問のやり方 </a>
+<a class="btn btn-primary" data-toggle="collapse" href="#howToQuestion" aria-expanded="true" aria-controls="howToQuestion"> 質問のやり方 </a>
 <div class="collapse show" id="howToQuestion">
     <div class="border p-3">
         <h2>わからないことがあった時の手順</h2>
@@ -301,11 +305,9 @@ ol li{
         <p>時間が経っても解決されない場合は、先生から回答することがあります。</p>
         <br/>
         <h2>先生に質問する際の注意点</h2>
-        <ul>
-            <li>slackでの質問の回答については原則授業中の時間で回答します</li>
-            <li>解決するのにどの方法を取るべきかは、自分で判断をしてください。<br/>
-            （先生が他の質問対応している場合、返信するのに時間がかかる場合があります。）</li>
-        </ul>
+        <p>slackでの質問の回答については原則授業中の時間で回答します</p>
+        <p>解決するのにどの方法を取るべきかは、自分で判断をしてください。<br/>
+        （先生が他の質問対応している場合、返信するのに時間がかかる場合があります。）</p>
     </div>
 </div>
 
@@ -353,7 +355,7 @@ ol li{
 <a data-toggle="collapse" href="#qa4" aria-expanded="false" aria-controls="qa4"> Q4)授業を休んだ時、どうすれば良いですか？ </a>
 <div class="collapse m-3" id="qa4">
     <div class="border p-3">
-        <p>こちらのWebサイト、slackのクラスチャンネル、連絡チャンネルより、どんなことをしたかキャッチアップをしてください。</p>
+        <p>こちらのWebサイト、slackのクラスチャンネル、連絡チャンネルより、どんなことをしたか<b>自身でキャッチアップ</b>をしてください。</p>
         <p>また、paizaの個別学習については、休んだ時間分取り組めると、極端に遅れることはないので、取り組んでみてください。</p>
     </div>
 </div>
