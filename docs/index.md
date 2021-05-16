@@ -1,3 +1,14 @@
+<!--
+
+        ソースコードを見ましたね！
+        
+        プログラミング学習は、言語学習と同じで使えば使うほど上達します。
+        
+        どんどん上達するコツは、たくさんコードを書くことです。
+
+        一緒に頑張りましょう！
+
+-->
 <script>
 (() => {
     // パスワード認証
@@ -76,6 +87,29 @@ ol li{
 <div class="collapse show" id="curriculum">
     <div class="border p-3">
         <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQHBu3W-Qh2nCDJi9eC-vRLT83q9YhO7CpLByOwyEBahqT3PlFQXErvjlTVAe0oT9_sPmxIqtcBEi7U/embed?start=true&loop=false&delayms=60000" frameborder="0" width="500" height="297" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    </div>
+</div>
+
+<br/>
+
+<a data-toggle="collapse" href="#curriculumFlow" aria-expanded="true" aria-controls="curriculumFlow"> 学習の流れ詳細 </a>
+<div class="collapse show" id="curriculumFlow">
+    <div class="border p-3">
+        <p class="text-center">HTML/CSS入門編 （<a href="#paizaRange">Paizaの学習範囲</a>）</p>
+        <p class="text-center">↓</p>
+        <p class="text-center">Webデザイン入門（<a href="#paizaRange">Paizaの学習範囲</a>）</p>
+        <p class="text-center">↓</p>
+        <p class="text-center">自己紹介HP製作</p>
+        <p class="text-center">↓</p>
+        <p class="text-center">JavaScript体験編 （<a href="#paizaRange">Paizaの学習範囲</a>）</p>
+        <p class="text-center">↓</p>
+        <p class="text-center">JavaScript入門編 （<a href="#paizaRange">Paizaの学習範囲</a>）</p>
+        <p class="text-center">↓</p>
+        <p class="text-center">JavaScript 基礎（佐々木/石井の教材）関数＋DOM操作</p>
+        <p class="text-center">↓</p>
+        <p class="text-center">JavaScript 実践（佐々木/石井の教材）</p>
+        <p class="text-center">↓</p>
+        <p class="text-center">個人/グループ製作（HTML＆CSS＆JavaScript）</p>
     </div>
 </div>
 
@@ -161,7 +195,8 @@ ol li{
 
 <div class="collapse show" id="slackRule">
     <div class="border p-3">
-        <span style="color:red;"><b>生徒間のDMは原則禁止です。</b></span>(slackの登録しているメールアドレスでも原則禁止)<br/>
+        <span style="color:red;"><b>生徒間のDMは原則禁止です。</b></span><br/><i>※slackの登録しているメールアドレスも原則禁止。</i><br/>
+        <br/>
         <b>SNS同様、slackの使い方にも情報モラルを持って</b>使ってください。<br/>
         slack内でのコミュニケーションにおいて、<b>校則に反した場合は、生徒指導の対象になります</b>ので、充分注意して使ってください。<br/>
     </div>
@@ -173,20 +208,42 @@ ol li{
 
 # 3.Paizaラーニングについて
 
-<a data-toggle="collapse" href="#paizaList" aria-expanded="false" aria-controls="paizaList"> paizaの学習範囲 </a>
+<a id="paizaRange" data-toggle="collapse" href="#paizaList" aria-expanded="false" aria-controls="paizaList"> paizaの学習範囲 </a>
 <div class="collapse" id="paizaList">
     <div class="border p-3">
-    <ol>
-        <li>「<a href="https://paiza.jp/works/html/primer" target="_blank">HTML/CSS入門</a>」の全てのレッスン</li>
-        <li>「<a href="https://paiza.jp/works/design/primer" target="_blank">Webデザイン入門</a>」一部のレッスン
-        <p>石井先生より詳細説明</p>
-        </li>
-        <li>「<a href="https://paiza.jp/works/javascript/trial" target="_blank">Javascript体験</a>」の全てのレッスン</li>
-        <li>
-        「<a href="https://paiza.jp/works/js/primer" target="_blank">Javascript入門</a>」の全てのレッスン
-        <p>(※Javascript体験と範囲がかぶる場所もありますが、定着確認の目的で演習課題を取り組んでみてください。)</p>
-        </li>
-    </ol>
+    <table>
+        <tr>
+            <th>#</th>
+            <th>講座</th>
+            <th>範囲</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><a href="https://paiza.jp/works/html/primer" target="_blank">HTML/CSS入門</a></td>
+            <td>全てのレッスン</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><a href="https://paiza.jp/works/html/primer" target="_blank">Webデザイン入門</a></td>
+            <td>
+            <ul>
+                <li>Lesson1: 全てのチャプター</li>
+                <li>Lesson2: 01〜06まで</li>
+                <li>Lesson3: 01,02のみ</li>
+            </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><a href="https://paiza.jp/works/javascript/trial" target="_blank">Javascript体験</a></td>
+            <td>全てのレッスン</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><a href="https://paiza.jp/works/js/primer" target="_blank">Javascript入門</a></td>
+            <td>全てのレッスン</td>
+        </tr>
+    </table>
     </div>
 </div>
 
@@ -215,6 +272,7 @@ ol li{
             <li>「登録済みのメールアドレスを入力」し、「再設定メール送付」をする</li>
             <li>メールにログインをし、URLからパスワードを再設定する</li>
         </ol>
+        <p>※上記の方法でダメな場合は、石井先生に相談してください。</p>
     </div>
 </div>
 
@@ -222,7 +280,7 @@ ol li{
 <div class="collapse m-3" id="qa2">
     <div class="border p-3">
         <ol>
-            <li>中村先生もしくは石井先生に相談してください。</li>
+            <li>石井先生に相談してください。</li>
         </ol>
     </div>
 </div>
@@ -262,7 +320,7 @@ ol li{
     </div>
 </div>
 
-<a data-toggle="collapse" href="#qa7" aria-expanded="false" aria-controls="qa6"> Q6)slackが英語なのですが、日本語設定の方法は？ </a>
+<a data-toggle="collapse" href="#qa6" aria-expanded="false" aria-controls="qa6"> Q6)slackが英語なのですが、日本語設定の方法は？ </a>
 <div class="collapse m-3" id="qa6">
     <div class="border p-3">
         <ol>
