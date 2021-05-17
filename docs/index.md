@@ -113,15 +113,17 @@ ol li{
 <a id="flow" class="btn btn-primary" data-toggle="collapse" href="#curriculumFlow" aria-expanded="true" aria-controls="curriculumFlow"> 学習の流れ詳細 </a>
 <div class="collapse show" id="curriculumFlow">
     <div class="border p-3">
-        <p class="text-center">HTML/CSS入門編 （<a href="#paizaRange">Paizaの学習範囲</a>）</p>
+        <p class="text-center">HTML/CSS入門編 （<a href="#paizaRange">Paizaの学習範囲</a>）<br/>（全てのチャプター）</p>
         <p class="text-center">↓</p>
-        <p class="text-center">Webデザイン入門（<a href="#paizaRange">Paizaの学習範囲</a>）<span style="color:red;">New</span></p>
+        <p class="text-center">Webデザイン入門（<a href="#paizaRange">Paizaの学習範囲</a>）<span style="color:red;">New</span><br/>
+        <span style="color:red;">範囲</span>（Lesson1:全て  Lesson2:01〜06  Lesson3: 01,02）
+        </p>
         <p class="text-center">↓</p>
         <p class="text-center">自己紹介HP製作</p>
         <p class="text-center">↓</p>
-        <p class="text-center">JavaScript体験編 （<a href="#paizaRange">Paizaの学習範囲</a>）</p>
+        <p class="text-center">JavaScript体験編 （<a href="#paizaRange">Paizaの学習範囲</a>）<br/>（全てのチャプター）</p>
         <p class="text-center">↓</p>
-        <p class="text-center">JavaScript入門編 （<a href="#paizaRange">Paizaの学習範囲</a>）</p>
+        <p class="text-center">JavaScript入門編 （<a href="#paizaRange">Paizaの学習範囲</a>）<br/>（全てのチャプター）</p>
         <p class="text-center">↓</p>
         <p class="text-center">JavaScript 基礎（佐々木/石井の教材）関数＋DOM操作</p>
         <p class="text-center">↓</p>
@@ -224,6 +226,27 @@ ol li{
 
 <br/>
 
+<a class="btn btn-primary" data-toggle="collapse" href="#howToQuestion" aria-expanded="true" aria-controls="howToQuestion"> 質問のやり方 </a> <span style="color:red;">New</span>
+<div class="collapse show" id="howToQuestion">
+    <div class="border p-3">
+        <h2>わからないことがあった時の手順</h2>
+        <ol>
+            <li>まずは<b>自分で10分以上調べる</b>。</li>
+            <li> <b>各クラスのチャンネル（＃1-x_2021年度）でクラスのみんなに質問</b> <br/>
+            <b>先生にslackでDM</b>で質問する/<b>直接手を上げて質問</b>する。</li>
+        </ol>
+        <h2>クラスチャンネルでの質問について</h2>
+        <p><b>クラスのチャンネルでの質問は生徒間で教え合うこと</b>がメインです。</p>
+        <p>クラスチャンネルで質問が投稿されていたら、答えられる人がいたら教えてあげてください。</p>
+        <p>時間が経っても解決されない場合は、先生から回答することがあります。</p>
+        <br/>
+        <h2>先生に質問する際の注意点</h2>
+        <p>slackでの質問の回答については原則授業中の時間で回答します</p>
+        <p>解決するのにどの方法を取るべきかは、自分で判断をしてください。<br/>
+        （先生が他の質問対応している場合、返信するのに時間がかかる場合があります。）</p>
+    </div>
+</div>
+
 <div class="m-5"></div>
 
 # 3.Paizaラーニングについて
@@ -251,8 +274,8 @@ ol li{
 
 <br/>
 
-<a class="btn btn-primary" id="paizaRange" data-toggle="collapse" href="#paizaList" aria-expanded="false" aria-controls="paizaList"> paizaの学習範囲 </a> <span style="color:red;">New</span>
-<div class="collapse" id="paizaList">
+<a class="btn btn-primary" id="paizaRange" data-toggle="collapse" href="#paizaList" aria-expanded="true" aria-controls="paizaList"> paizaの学習範囲 </a> <span style="color:red;">New</span>
+<div class="collapse show" id="paizaList">
     <div class="border p-3">
     <table>
         <tr>
@@ -290,31 +313,6 @@ ol li{
     <p>学習の順番は、<a href="#flow">カリキュラムの「学習の流れ詳細」</a>を参照してください。</p>
     </div>
 </div>
-
-<br/>
-
-<a class="btn btn-primary" data-toggle="collapse" href="#howToQuestion" aria-expanded="true" aria-controls="howToQuestion"> 質問のやり方 </a> <span style="color:red;">New</span>
-<div class="collapse show" id="howToQuestion">
-    <div class="border p-3">
-        <h2>わからないことがあった時の手順</h2>
-        <ol>
-            <li>まずは<b>自分で10分以上調べる</b>。</li>
-            <li> <b>各クラスのチャンネル（＃1-x_2021年度）でクラスのみんなに質問</b> <br/>
-            <b>先生にslackでDM</b>で質問する/<b>直接手を上げて質問</b>する。</li>
-        </ol>
-        <h2>クラスチャンネルでの質問について</h2>
-        <p><b>クラスのチャンネルでの質問は生徒間で教え合うこと</b>がメインです。</p>
-        <p>クラスチャンネルで質問が投稿されていたら、答えられる人がいたら教えてあげてください。</p>
-        <p>時間が経っても解決されない場合は、先生から回答することがあります。</p>
-        <br/>
-        <h2>先生に質問する際の注意点</h2>
-        <p>slackでの質問の回答については原則授業中の時間で回答します</p>
-        <p>解決するのにどの方法を取るべきかは、自分で判断をしてください。<br/>
-        （先生が他の質問対応している場合、返信するのに時間がかかる場合があります。）</p>
-    </div>
-</div>
-
-<br/>
 
 <div class="m-5"></div>
 
@@ -417,4 +415,3 @@ ol li{
     });
 })();
 </script>
-
