@@ -101,8 +101,8 @@ ol li{
 
 # 1. カリキュラムについて
 
-<a class="btn btn-primary" data-toggle="collapse" href="#curriculum" aria-expanded="true" aria-controls="curriculum"> カリキュラム（一年間の流れ） </a>
-<div class="collapse show" id="curriculum">
+<a class="btn btn-primary" data-toggle="collapse" href="#curriculum" aria-expanded="false" aria-controls="curriculum"> カリキュラム（一年間の流れ） </a>
+<div class="collapse" id="curriculum">
     <div class="border p-3">
         <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQHBu3W-Qh2nCDJi9eC-vRLT83q9YhO7CpLByOwyEBahqT3PlFQXErvjlTVAe0oT9_sPmxIqtcBEi7U/embed?start=true&loop=false&delayms=60000" frameborder="0" width="500" height="297" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
     </div>
