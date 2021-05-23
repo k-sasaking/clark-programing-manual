@@ -319,7 +319,8 @@ ol li{
 
 # 4. Visual Studio Codeのインストール
 
-<a class="btn btn-primary" data-toggle="collapse" href="#whatIsVSCode" aria-expanded="true" aria-controls="whatIsVSCode"> Visual Studio Codeとは </a>
+<a class="btn btn-primary" data-toggle="collapse" href="#whatIsVSCode" aria-expanded="true" aria-controls="whatIsVSCode"> Visual Studio Codeとは <span style="color:red;">New 5/24</span>
+</a>
 <div class="collapse show" id="whatIsVSCode">
     <div class="border p-3">
         <p>エディターと言って、<b>ソースコードを作成/編集するためのソフト</b>の一つです。</p>
@@ -329,14 +330,33 @@ ol li{
     </div>
 </div>
 
-<a class="btn btn-primary" data-toggle="collapse" href="#installVSCode" aria-expanded="true" aria-controls="installVSCode"> Visual Studioのインストール方法 </a>
+<br/>
+
+<a class="btn btn-primary" data-toggle="collapse" href="#installVSCode" aria-expanded="true" aria-controls="installVSCode"> Visual Studioのインストール方法 <span style="color:red;">New 5/24</span>
+</a>
 <div class="collapse show" id="installVSCode">
     <div class="border p-3">
-        <p>Visual Studio Codeのインストール</p>
+        <h2>Visual Studio Codeのインストール</h2>
+        <p>1. 下記のサイトからダウンロード</p>
+        <p><a href="https://code.visualstudio.com/download" target="_blank">https://code.visualstudio.com/download</a></p>
+        <img src="vscode_win.png"/>
+        <p>2. ダウンロードしたファイル(VSCodeUserSetup-x64-X.XX.Xexe)を開く<br/>※Xの部分はバージョンの数字が入ります。</p>
+        <p>3. 「次へ」を押す</p>
+        <img src="vscode_1.png"/>
+        <img src="vscode_2.png"/>
+        <img src="vscode_3.png"/>
+        <img src="vscode_4.png"/>
+        <img src="vscode_5.png"/>
+        <img src="vscode_6.png"/>
+        <p>4. インストール完了</p>
+        <img src="vscode_7.png"/>
     </div>
 </div>
 
-<a class="btn btn-primary" data-toggle="collapse" href="#howToMakeHtmlVSC" aria-expanded="false" aria-controls="howToMakeHtmlVSC"> Visual Studio CodeでHTMLファイルを作成する方法 </a>
+<br/>
+
+<a class="btn btn-primary" data-toggle="collapse" href="#howToMakeHtmlVSC" aria-expanded="false" aria-controls="howToMakeHtmlVSC"> Visual Studio CodeでHTMLファイルを作成する方法<span style="color:red;">New 5/24</span>
+ </a>
 <div class="collapse" id="howToMakeHtmlVSC">
     <div class="border p-3">
         <p>Visual Studio CodeでHTMLファイルを作成する方法</p>
