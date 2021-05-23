@@ -115,11 +115,11 @@ ol li{
     <div class="border p-3">
         <p class="text-center">HTML/CSS入門編 （<a href="#paizaRange">Paizaの学習範囲</a>）<br/>（全てのチャプター）</p>
         <p class="text-center">↓</p>
-        <p class="text-center">Webデザイン入門（<a href="#paizaRange">Paizaの学習範囲</a>）<span style="color:red;">New</span><br/>
+        <p class="text-center">Webデザイン入門（<a href="#paizaRange">Paizaの学習範囲</a>）<span style="color:red;">New 5/17</span><br/>
         <span style="color:red;">範囲</span>（Lesson1:全て  Lesson2:01〜06  Lesson3: 01,02）
         </p>
         <p class="text-center">↓</p>
-        <p class="text-center">自己紹介HP製作</p>
+        <p class="text-center"><a href="homepage.html">自己紹介HP製作</a> <span style="color:red;">New 5/24</span></p>
         <p class="text-center">↓</p>
         <p class="text-center">JavaScript体験編 （<a href="#paizaRange">Paizaの学習範囲</a>）<br/>（全てのチャプター）</p>
         <p class="text-center">↓</p>
@@ -166,7 +166,7 @@ ol li{
 
 <br/>
 
-<a class="btn btn-primary" data-toggle="collapse" href="#slackTodo" aria-expanded="false" aria-controls="slackTodo"> slackの登録済みの人がやること４つ </a> <span style="color:red;">New</span>
+<a class="btn btn-primary" data-toggle="collapse" href="#slackTodo" aria-expanded="false" aria-controls="slackTodo"> slackの登録済みの人がやること４つ </a> <span style="color:red;">New 5/17</span>
 <div class="collapse" id="slackTodo">
     <div class="border p-3">
         <h2>①Slackの通知の設定</h2>
@@ -213,7 +213,7 @@ ol li{
 
 <br/>
 
-<a class="btn btn-primary" data-toggle="collapse" href="#slackRule" aria-expanded="true" aria-controls="slackRule"> slackの使い方とルール </a>（<span style="color:red;"><b>※必読</b></span>）<span style="color:red;">New</span>
+<a class="btn btn-primary" data-toggle="collapse" href="#slackRule" aria-expanded="true" aria-controls="slackRule"> slackの使い方とルール </a>（<span style="color:red;"><b>※必読</b></span>）<span style="color:red;">New 5/17</span>
 
 <div class="collapse show" id="slackRule">
     <div class="border p-3">
@@ -226,7 +226,7 @@ ol li{
 
 <br/>
 
-<a class="btn btn-primary" data-toggle="collapse" href="#howToQuestion" aria-expanded="true" aria-controls="howToQuestion"> 質問のやり方 </a> <span style="color:red;">New</span>
+<a class="btn btn-primary" data-toggle="collapse" href="#howToQuestion" aria-expanded="true" aria-controls="howToQuestion"> 質問のやり方 </a> <span style="color:red;">New 5/17</span>
 <div class="collapse show" id="howToQuestion">
     <div class="border p-3">
         <h2>わからないことがあった時の手順</h2>
@@ -274,7 +274,7 @@ ol li{
 
 <br/>
 
-<a class="btn btn-primary" id="paizaRange" data-toggle="collapse" href="#paizaList" aria-expanded="true" aria-controls="paizaList"> paizaの学習範囲 </a> <span style="color:red;">New</span>
+<a class="btn btn-primary" id="paizaRange" data-toggle="collapse" href="#paizaList" aria-expanded="true" aria-controls="paizaList"> paizaの学習範囲 </a> <span style="color:red;">New 5/17</span>
 <div class="collapse show" id="paizaList">
     <div class="border p-3">
     <table>
@@ -317,7 +317,34 @@ ol li{
 <div class="m-5"></div>
 
 
-# 4.よくあるQ&A
+# 4. Visual Studio Codeのインストール
+
+<a class="btn btn-primary" data-toggle="collapse" href="#whatIsVSCode" aria-expanded="true" aria-controls="whatIsVSCode"> Visual Studio Codeとは </a>
+<div class="collapse show" id="whatIsVSCode">
+    <div class="border p-3">
+        <p>エディターと言って、<b>ソースコードを作成/編集するためのソフト</b>の一つです。</p>
+        <p>他にもメモ帳, サクラエディタ, Atom, Notepad++, Vimなど、さまざまなエディターがあります。</p>
+        <p>今回は、Microsoft社が開発しているエディターで、性能も良く一般的に使われているVisual Studio Code(略:VS Code)をインストールして使用します。</p>
+        <p> コーディングサポート機能や拡張性にも優れていて、 マルチプラットフォームにも対応しています。</p>
+    </div>
+</div>
+
+<a class="btn btn-primary" data-toggle="collapse" href="#installVSCode" aria-expanded="true" aria-controls="installVSCode"> Visual Studioのインストール方法 </a>
+<div class="collapse show" id="installVSCode">
+    <div class="border p-3">
+        <p>Visual Studio Codeのインストール</p>
+    </div>
+</div>
+
+<a class="btn btn-primary" data-toggle="collapse" href="#howToMakeHtmlVSC" aria-expanded="false" aria-controls="howToMakeHtmlVSC"> Visual Studio CodeでHTMLファイルを作成する方法 </a>
+<div class="collapse" id="howToMakeHtmlVSC">
+    <div class="border p-3">
+        <p>Visual Studio CodeでHTMLファイルを作成する方法</p>
+    </div>
+</div>
+
+
+# 5.よくあるQ&A
 
 <a data-toggle="collapse" href="#qa1" aria-expanded="false" aria-controls="qa1"> Q1)paizaのログインパスワードを忘れました </a>
 <div class="collapse m-3" id="qa1">
