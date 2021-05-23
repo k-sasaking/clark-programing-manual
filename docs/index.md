@@ -319,8 +319,8 @@ ol li{
 
 # 4. Visual Studio Codeのインストール
 
-<a class="btn btn-primary" data-toggle="collapse" href="#whatIsVSCode" aria-expanded="true" aria-controls="whatIsVSCode"> Visual Studio Codeとは <span style="color:red;">New 5/24</span>
-</a>
+<a class="btn btn-primary" data-toggle="collapse" href="#whatIsVSCode" aria-expanded="true" aria-controls="whatIsVSCode"> Visual Studio Codeとは 
+</a><span style="color:red;">New 5/24</span>
 <div class="collapse show" id="whatIsVSCode">
     <div class="border p-3">
         <p>エディターと言って、<b>ソースコードを作成/編集するためのソフト</b>の一つです。</p>
@@ -332,34 +332,74 @@ ol li{
 
 <br/>
 
-<a class="btn btn-primary" data-toggle="collapse" href="#installVSCode" aria-expanded="true" aria-controls="installVSCode"> Visual Studioのインストール方法 <span style="color:red;">New 5/24</span>
-</a>
+<a class="btn btn-primary" data-toggle="collapse" href="#installVSCode" aria-expanded="true" aria-controls="installVSCode"> Visual Studioのインストール方法 
+</a><span style="color:red;">New 5/24</span>
 <div class="collapse show" id="installVSCode">
     <div class="border p-3">
         <h2>Visual Studio Codeのインストール</h2>
         <p>1. 下記のサイトからダウンロード</p>
         <p><a href="https://code.visualstudio.com/download" target="_blank">https://code.visualstudio.com/download</a></p>
-        <img src="vscode_win.png"/>
+        <img src="img/vscode_win.png" width="500"/>
         <p>2. ダウンロードしたファイル(VSCodeUserSetup-x64-X.XX.Xexe)を開く<br/>※Xの部分はバージョンの数字が入ります。</p>
         <p>3. 「次へ」を押す</p>
-        <img src="vscode_1.png"/>
-        <img src="vscode_2.png"/>
-        <img src="vscode_3.png"/>
-        <img src="vscode_4.png"/>
-        <img src="vscode_5.png"/>
-        <img src="vscode_6.png"/>
+        <img src="img/vscode_1.png" width="500"/>
+        <img src="img/vscode_2.png" width="500"/>
+        <img src="img/vscode_3.png" width="500"/>
+        <img src="img/vscode_4.png" width="500"/>
+        <img src="img/vscode_5.png" width="500"/>
+        <img src="img/vscode_6.png" width="500"/>
         <p>4. インストール完了</p>
-        <img src="vscode_7.png"/>
+        <img src="vscode_7.png" width="500"/>
     </div>
 </div>
 
 <br/>
 
-<a class="btn btn-primary" data-toggle="collapse" href="#howToMakeHtmlVSC" aria-expanded="false" aria-controls="howToMakeHtmlVSC"> Visual Studio CodeでHTMLファイルを作成する方法<span style="color:red;">New 5/24</span>
- </a>
+<a class="btn btn-primary" data-toggle="collapse" href="#howToMakeHtmlVSC" aria-expanded="false" aria-controls="howToMakeHtmlVSC"> Visual Studio CodeでHTMLファイルを作成する方法
+ </a><span style="color:red;">New 5/24</span>
 <div class="collapse" id="howToMakeHtmlVSC">
     <div class="border p-3">
         <p>Visual Studio CodeでHTMLファイルを作成する方法</p>
+        <p>デスクトップにフォルダを作成<br/>※自分で管理できる人はデスクトップじゃなくてもOK</p>
+        <p>右クリック → 新規フォルダ →　名前をつける<br/>※フォルダ名はなんでもよし迷ったときは「プログラミング基礎」にする</p>
+        <p>フォルダを開き、新規でファイルを作成する</p>
+        <p>ファイル作成時、名前をindex.htmlにする。</p>
+        <p>拡張子を変更するアラートが出たら、「はい」を押す。</p>
+        <p>Visual Studio Codeを開く</p>
+        <p>「フォルダから開く」を押して、作成したフォルダを選択</p>
+        <p>index.htmlが表示されていればOK</p>
+        <p>VS Codeでindex.htmlを以下のように編集する</p>
+        
+        ```
+        <!doctype html>
+        <html lang="ja">
+        <head>
+            <!-- Required meta tags -->
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <!-- Bootstrap CSS -->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <title>Hello, world!</title>
+        </head>
+        <body class="text-center">
+            <h1>テストページです。</h1>
+            <p>Google chromeで確認できましたか？</p>
+            <img src="lion.jpg" height="500"/>
+            <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        </body>
+        </html>
+        ````
+
+        <p>編集できたら 「ctrl」+「s」を押して保存する。</p>
+
+        <p>画像をダウンロードして、作成したフォルダ内に保存をしてください。<a href="img/lion.jpg" download class="btn btn-success">画像ダウンロード</a></p>
+
+        <p>Google Chromeを開く</p>
+        <p>Google Chromeへ「index.html」をドラッグ＆ドロップする</p>
     </div>
 </div>
 
