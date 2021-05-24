@@ -96,6 +96,9 @@ ol li{
 .header--unpinned {
     display: none;
 }
+ul {
+    list-style-type: disc;
+}
 </style>
 
 
