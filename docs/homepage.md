@@ -170,35 +170,6 @@ ul {
 
 <hr/>
 
-### 正しい引用方法
-
-- 原則、<b style="color:red;">著作物の引用方法などが記載されていない場合は使用しない。</b>また、<b>使用したい場合は、該当のWebサイトの利用規約/引用のルールに則って正しく引用する</b>こと。
-
-- 引用していいか判断つかないものについては、過去の裁判の判例などを調べること。調べても判断つかないことについては極力やらない。
-
-- 著作者が不快に思うことは<span style="color:red;">原則禁止</span>。
-
-<hr/>
-
-### 利用規約によっては無料で使えるWebサイト
-
-使う場合は**ライセンスや利用規約は必ず確認する**こと。
-
-#### アイコン
-
-- [https://icooon-mono.com/](https://icooon-mono.com/)
-- [http://pictogram2.com/](http://pictogram2.com/)
-- [https://icon-rainbow.com/](https://icon-rainbow.com/)
-- [https://kage-design.com/](https://kage-design.com/)
-
-#### 写真
-
-- [https://www.beiz.jp/summary.html](https://www.beiz.jp/summary.html)
-- [https://photosku.com/](https://photosku.com/)
-
-
-<hr/>
-
 ## 著作権ってどんな権利？
 
 著作物（音楽、絵画、写真、図形、映画、など創作物）における、著作者の権利を保護するために認められた権利の総称です。
@@ -237,6 +208,15 @@ ul {
 
 ## 正しい引用方法と画像の使い方
 
+- 原則、<b style="color:red;">著作物の引用方法などが記載されていない場合は使用しない。</b>また、<b>使用したい場合は、該当のWebサイトの利用規約/引用のルールに則って正しく引用する</b>こと。
+
+- 引用していいか判断つかないものについては、過去の裁判の判例などを調べること。調べても判断つかないことについては極力やらない。
+
+- 著作者が不快に思うことは<span style="color:red;">原則禁止</span>。
+
+<hr/>
+
+
 <pre style="background-color: #787878;color: #D7d7d7;">
 （注5）引用における注意事項
 他人の著作物を自分の著作物の中に取り込む場合，すなわち引用を行う場合，一般的には，以下の事項に注意しなければなりません。
@@ -274,6 +254,24 @@ ul {
 - <b style="color:red;">引用元の表記などは必要</b>か
 - **画像を加工可能か（記載ない場合は<span style="color:red;">原則禁止</span>）**
 
+<hr/>
+
+### 利用規約によっては無料で使えるWebサイト
+
+使う場合は**ライセンスや利用規約は必ず確認する**こと。
+
+#### アイコン
+
+- [https://icooon-mono.com/](https://icooon-mono.com/)
+- [http://pictogram2.com/](http://pictogram2.com/)
+- [https://icon-rainbow.com/](https://icon-rainbow.com/)
+- [https://kage-design.com/](https://kage-design.com/)
+
+#### 写真
+
+- [https://www.beiz.jp/summary.html](https://www.beiz.jp/summary.html)
+- [https://photosku.com/](https://photosku.com/)
+
 <br/>
 
 ### ネットで拾った画像は使わない。他者の画像を使いたい場合は許可をとる。
@@ -296,6 +294,7 @@ href ="https://xxxxxxxxxx.png"
 
 基本は、**利用する画像を自分のPC上にダウンロード**して、利用します。
 
+<hr/>
 
 
 <script>
