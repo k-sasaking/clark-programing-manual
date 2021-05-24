@@ -80,7 +80,7 @@ ul {
 
 佐々木プロフィールページ: [https://k-sasaking.github.io/clark-js/profile.html](https://k-sasaking.github.io/clark-js/profile.html)
 
-石井プロフィールページ: xxxxxxx
+石井プロフィールページ: [https://hiro-107.github.io/hirox/](https://hiro-107.github.io/hirox/)
 
 
 <br/>
@@ -159,10 +159,10 @@ ul {
 
 <br/>
 <br/>
-<br/>
+<br id="aboutCopyright"/>
 
 
-<h2 id="aboutCopyright">著作物の利用について</h2>
+<h2>著作物の利用について</h2>
 
 <p>Webページを作る際、<b>画像/音声/動画/文章/地図</b>などのデータを利用する場合、勝手に利用/編集した場合、最大で<b>10年以下の懲役又は1000万円以下の罰金</b>に課せられる可能性があります。<br/>
 充分注意して正しく引用しましょう。</p>
