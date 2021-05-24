@@ -349,8 +349,6 @@ ul {
         <img src="img/vscode_1.png" width="500"/>
         <img src="img/vscode_2.png" width="500"/>
         <img src="img/vscode_3.png" width="500"/>
-        <img src="img/vscode_4.png" width="500"/>
-        <img src="img/vscode_5.png" width="500"/>
         <img src="img/vscode_6.png" width="500"/>
         <br/>
         <p>4. インストール完了</p>
