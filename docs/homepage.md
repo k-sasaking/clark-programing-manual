@@ -88,12 +88,15 @@
 
 以下の<b>Bootstrap4</b>を利用するようにしてください。
 
-<a href="" target="_blank">https://getbootstrap.jp/docs/4.3/getting-started/introduction/</a>
+<a href="https://getbootstrap.jp/docs/4.3/getting-started/introduction/" target="_blank">https://getbootstrap.jp/docs/4.3/getting-started/introduction/</a>
 
 
 
 <p>上記のサイトに「[スターターテンプレート](https://getbootstrap.jp/docs/4.3/getting-started/introduction/#%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88)」があるので利用してください。</p>
 
+<p>※paizaのnavigation barが使えないので以下のリンクから好きなものをコピーして使ってください。</p>
+
+<a href="https://getbootstrap.jp/docs/4.3/components/navbar/" target="_blank"></a>
 
 
 ## 課題に取り組む上での注意点
