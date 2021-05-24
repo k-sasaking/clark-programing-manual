@@ -123,7 +123,7 @@ ol li{
 
 
 
-<p>上記のサイトに「[スターターテンプレート](https://getbootstrap.jp/docs/4.3/getting-started/introduction/#%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88)」があるので利用してください。</p>
+<p>上記のサイトに「<a href="https://getbootstrap.jp/docs/4.3/getting-started/introduction/#%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88" target="_blank">スターターテンプレート</a>」があるので利用してください。</p>
 
 <p>※paizaのnavigation barが使えないので以下のリンクから好きなものをコピーして使ってください。</p>
 
@@ -169,7 +169,7 @@ ol li{
 
 写真
 
-- [https://www.beiz.jp/summary.htmlhttps://www.beiz.jp/summary.html)
+- [https://www.beiz.jp/summary.html](https://www.beiz.jp/summary.html)
 - [https://photosku.com/](https://photosku.com/)
 
 
