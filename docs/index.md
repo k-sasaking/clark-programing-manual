@@ -122,7 +122,7 @@ ul {
         <span style="color:red;">範囲</span>（Lesson1:全て  Lesson2:01〜06  Lesson3: 01,02）
         </p>
         <p class="text-center">↓</p>
-        <p class="text-center"><a href="homepage.html">自己紹介HP製作</a> <span style="color:red;"> New 5/24</span></p>
+        <p class="text-center"><a href="homepage.html" target="_blank">自己紹介HP製作</a> <span style="color:red;"> New 5/24</span></p>
         <p class="text-center">↓</p>
         <p class="text-center">JavaScript体験編 （<a href="#paizaRange">Paizaの学習範囲</a>）<br/>（全てのチャプター）</p>
         <p class="text-center">↓</p>
@@ -342,7 +342,9 @@ ul {
         <p>1. 下記のサイトからダウンロード</p>
         <p><a href="https://code.visualstudio.com/download" target="_blank">https://code.visualstudio.com/download</a></p>
         <img src="img/vscode_win.png" width="500"/>
+        <br/>
         <p>2. ダウンロードしたファイル(VSCodeUserSetup-x64-X.XX.Xexe)を開く<br/>※Xの部分はバージョンの数字が入ります。</p>
+        <br/>
         <p>3. 「次へ」を押す</p>
         <img src="img/vscode_1.png" width="500"/>
         <img src="img/vscode_2.png" width="500"/>
@@ -350,6 +352,7 @@ ul {
         <img src="img/vscode_4.png" width="500"/>
         <img src="img/vscode_5.png" width="500"/>
         <img src="img/vscode_6.png" width="500"/>
+        <br/>
         <p>4. インストール完了</p>
         <img src="img/vscode_7.png" width="500"/>
     </div>
@@ -364,17 +367,21 @@ ul {
         <h2>Visual Studio CodeでHTMLファイルを作成する方法</h2>
         <p>1. デスクトップにフォルダを作成<br/>※自分で管理できる人はデスクトップじゃなくてもOK</p>
         <img src="img/index_html.png" width="500">
+        <br/>
         <p>2. 「右クリック → 新規フォルダ →　名前をつける」<br/>※フォルダ名はなんでもよし迷ったときは「プログラミング基礎」にする</p>
+        <br/>
         <p>3. フォルダを開き、新規でファイルを作成する</p>
         <p>ファイル作成時、名前をindex.htmlにする。</p>
         <img src="img/index_html2.png" width="500">
         <p>拡張子を変更するアラートが出たら、「はい」を押す。</p>
         <img src="img/index_html3.png" width="500">
+        <br/>
         <p>4. Visual Studio Codeを開く</p>
         <p>「フォルダから開く」を押して、作成したフォルダを選択</p>
         <img src="img/index_html4.png" width="500">
         <p>index.htmlが表示されていればOK</p>
         <img src="img/index_html5.png" width="500">
+        <br/>
         <p>5. VS Codeでindex.htmlを以下のように編集する</p>
         <pre>
         <code style="color:white;">
@@ -402,7 +409,9 @@ ul {
         </pre>
         <p>編集できたら 「ctrl」+「s」を押して保存する。</p>
 
+        <br/>
         <p>6. 画像をダウンロードして、作成したフォルダ内に保存をしてください。<a href="img/lion.jpg" download class="btn btn-success">画像ダウンロード</a></p>
+        <br/>
         <p>7. Google Chromeを開く</p>
         <p>Google Chromeへ「index.html」をドラッグ＆ドロップする</p>
         <img src="img/index_html6.png" width="500">
