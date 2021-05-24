@@ -21,6 +21,37 @@
 
 })();
 </script>
+<style>
+header h1 {
+    margin-bottom: 30px;
+}
+header p {
+    margin: 10px;
+}
+.wrapper h1 {
+  border-bottom: solid 3px black;
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 30px;  
+}
+.wrapper h2 {
+  padding: 0.4em 0.5em;
+  font-size: 20px;
+  color: #494949;
+  background: #f4f4f4;
+  border-left: solid 5px #7db4e6;
+  border-bottom: solid 3px #d7d7d7;
+  margin-top: 10px;
+  margin-bottom: 15px;  
+}
+ol li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header--unpinned {
+    display: none;
+}
+</style>
 
 
 # ホームページ制作課題について
