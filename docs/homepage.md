@@ -61,7 +61,8 @@ section {
     margin-top: 30px;
 }
 ul {
-    list-style-type: disc;
+    list-style-type: disc !important;
+    list-style-image: none !important;
 }
 </style>
 
@@ -92,7 +93,7 @@ ul {
 #### 技術点
 - 見出しタグが使われている ([参考](https://paiza.jp/works/html/primer/beginner-html1/11000))
 - pタグが使われている ([参考](https://paiza.jp/works/html/primer/beginner-html1/11002))
-- 画像が正しく表示されている ([参考](https://paiza.jp/works/html/primer/beginner-html3/11020))
+- 画像が表示されている ([参考](https://paiza.jp/works/html/primer/beginner-html3/11020))
 - リンクが設置されている ([参考](https://paiza.jp/works/html/primer/beginner-html3/11020))
 - リストが使えている ([参考](https://paiza.jp/works/html/primer/beginner-html3/11021))
 - テーブルが使えている ([参考](https://paiza.jp/works/html/primer/beginner-html3/11022))
@@ -100,7 +101,7 @@ ul {
 - Navigation barが使えている ([参考](https://paiza.jp/works/html/primer/beginner-html3/11021))
 
 #### デザイン点
-- レスポンシブなデザインになっている ([参考](https://paiza.jp/works/html/primer/beginner-html2/11014))
+- レスポンシブなデザインになっている (例：画像、余白など[参考1](https://paiza.jp/works/html/primer/beginner-html2/11014).([参考2](https://paiza.jp/works/html/primer/beginner-html3/11020))
 - 色使いが工夫されている ([参考1](https://paiza.jp/works/design/primer/design-1/19001))([参考2](https://paiza.jp/works/design/primer/design-1/19003) )
 - 余白が見やすいように調整されている([参考1](https://paiza.jp/works/design/primer/design-1/19001))([参考2](https://paiza.jp/works/design/primer/design-1/19006))
 
@@ -129,7 +130,7 @@ ul {
 
 <p>下記サイトのように、HTMLのみでまずはプロフィールを書いてみましょう。</p>
 
-[https://liginc.co.jp/230184](https://liginc.co.jp/230184)
+<a href="https://liginc.co.jp/230184" target="_blank">https://liginc.co.jp/230184</a>
 
 ※上記のWebサイトのコードを利用する場合、htmlタグ/headタグ/bodyタグが省略されていますのでご注意ください。（タグの省略について知りたい方は[コチラ](https://agohack.com/html-closetags/)を参照）
 
@@ -138,8 +139,11 @@ ul {
 
 <br/>
 
+
 ## Bootstrapの利用について
 
+
+### Bootstrapのバージョンについて
 <p>paizaラーニングの教材では、古いversionのBootstrapを利用しているため、<b>Bootstrap4を利用してください。</b></p>
 
 以下の<b>Bootstrap4</b>を利用するようにしてください。
@@ -148,13 +152,47 @@ ul {
 
 <br/>
 
-<p>上記のサイトに「<a href="https://getbootstrap.jp/docs/4.3/getting-started/introduction/#%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88" target="_blank">スターターテンプレート</a>」があるので利用してください。</p>
+<p>上記のサイトに「<a href="https://getbootstrap.jp/docs/4.3/getting-started/introduction/#%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88" target="_blank">スターターテンプレート</a>があるので利用してください。</p>
 
 <br/>
+
+### Navigation Barの利用について
 
 <p>※paizaのnavigation barが使えないので以下のリンクから好きなものをコピーして使ってください。</p>
 
 <a href="https://getbootstrap.jp/docs/4.3/components/navbar/" target="_blank">Bootstrap Navigation bar サンプル</a>
+
+<p>bootstrapのナビゲーションバーのコピーのやり方</p>
+
+<img src="img/bootstrap_navbar.png">
+
+<br/>
+
+<p>NavBar以外にも、bootstrapで以下のComponentsから好きなデザインのHTMLをコピーして使うこともできます。</p>
+<img src="img/bootstrap_components.png">
+
+
+<br/>
+
+### 画像のレスポンシブ化について
+
+<p>※paizaのimg-responsiveが古くて使えないので以下のリンクから好きなものをコピーして使ってください。</p>
+
+<a href="https://getbootstrap.jp/docs/4.3/content/images/" target="_blank">Bootstrap Image サンプル</a>
+
+<br/>
+
+<p>やり方</p>
+<p>以下のように、img-fluidのようにclassの中に値を入れてください。</p>
+
+```
+<img class="img-fluid" src="xxxxx.png" />
+
+```
+
+<p>img-fluid以外にもimg-thumbnailもあるので、そちらを使っても構わないです。</p>
+
+
 
 <br/>
 <br/>
@@ -198,10 +236,15 @@ ul {
 - 客観的事実（ニュースの情報など）
 - 著作者が死後70年経った著作物（昔のクラシック音楽など）
 
-<a href="https://jrrc.or.jp/study/" target="_blank">著作権クイズにチャレンジする</a>
-（※公益社団法人日本複製権センターより）
+<blockquote class="blockquote">
+  <a href="https://jrrc.or.jp/study/" target="_blank">著作権クイズにチャレンジする</a>
+  <div class="blockquote-footer">公益社団法人日本複製権センターより <cite>https://jrrc.or.jp/study/</cite></div>
+</blockquote>
 
-<a href="https://takizawalaw.com/1935/#3SNS" target="_blank">SNSを利用した著作権問題例</a>
+<blockquote class="blockquote">
+    <a href="https://takizawalaw.com/1935/" target="_blank">SNSを利用した著作権問題例</a>
+    <div class="blockquote-footer">たきざわ法律事務所 <cite>https://takizawalaw.com/1935/</cite></div>
+</blockquote>
 
 
 <hr/>
@@ -216,19 +259,19 @@ ul {
 
 <hr/>
 
+<blockquote class="blockquote">
+    <pre style="background-color: #787878;color: #D7d7d7;">
+    （注5）引用における注意事項
+    他人の著作物を自分の著作物の中に取り込む場合，すなわち引用を行う場合，一般的には，以下の事項に注意しなければなりません。
 
-<pre style="background-color: #787878;color: #D7d7d7;">
-（注5）引用における注意事項
-他人の著作物を自分の著作物の中に取り込む場合，すなわち引用を行う場合，一般的には，以下の事項に注意しなければなりません。
-
-（1）他人の著作物を引用する必然性があること。
-（2）かぎ括弧をつけるなど，自分の著作物と引用部分とが区別されていること。
-（3）自分の著作物と引用する著作物との主従関係が明確であること（自分の著作物が主体）。
-（4）出所の明示がなされていること。（第48条）
-（参照：最判昭和55年3月28日 ｢パロディー事件｣）
-</pre>
-
-<p>引用元:<a href="https://www.bunka.go.jp/seisaku/chosakuken/seidokaisetsu/gaiyo/chosakubutsu_jiyu.html">著作物が自由に使える場合 | 文化庁</a></p>
+    （1）他人の著作物を引用する必然性があること。
+    （2）かぎ括弧をつけるなど，自分の著作物と引用部分とが区別されていること。
+    （3）自分の著作物と引用する著作物との主従関係が明確であること（自分の著作物が主体）。
+    （4）出所の明示がなされていること。（第48条）
+    （参照：最判昭和55年3月28日 ｢パロディー事件｣）
+    </pre>    
+    <div class="blockquote-footer">引用元：著作物が自由に使える場合 | 文化庁 <cite>https://www.bunka.go.jp/seisaku/chosakuken/seidokaisetsu/gaiyo/chosakubutsu_jiyu.html</cite></div>
+</blockquote>
 
 <br/>
 
@@ -290,7 +333,7 @@ google画像検索やWebサイト上に**アップロードされている画像
 href ="https://xxxxxxxxxx.png"
 ```
 
-直リンクは、相手のサーバーに負荷をかけてしまうため、<span style="color:red;">原則禁止</a>です。
+直リンクは、相手のサーバーに負荷をかけてしまうため、<span style="color:red;">原則禁止</span>です。
 
 基本は、**利用する画像を自分のPC上にダウンロード**して、利用します。
 

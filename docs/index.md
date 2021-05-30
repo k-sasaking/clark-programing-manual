@@ -97,7 +97,8 @@ ol li{
     display: none;
 }
 ul {
-    list-style-type: disc;
+    list-style-type: disc !important;
+    list-style-image: none !important;
 }
 </style>
 
@@ -416,6 +417,13 @@ ul {
     </div>
 </div>
 
+<a class="btn btn-primary" data-toggle="collapse" href="#japaneseVSCode" aria-expanded="true" aria-controls="japaneseVSCode"> Visual Studio Code日本語化したい人 </a> 
+<div class="collapse show" id="japaneseVSCode">
+    <div class="border p-3">
+    </div>
+</div>
+
+
 
 # 5.よくあるQ&A
 
@@ -488,6 +496,17 @@ ul {
         </ol>
     </div>
 </div>
+
+<a data-toggle="collapse" href="#qa7" aria-expanded="false" aria-controls="qa7"> Q7)Visual Studio Codeの日本語設定の方法は？ </a><span style="color:red;"> New 6/1</span>
+<div class="collapse m-3" id="qa7">
+    <div class="border p-3">
+    <p>日本語化したい人は、以下のURLに詳しい手順が載っているので、参考にしてください。</p>
+    <p>
+        <a href="https://www.javadrive.jp/vscode/install/index4.html" target="_blank">https://www.javadrive.jp/vscode/install/index4.html</a>
+    </p>
+    </div>
+</div>
+
 
 <script>
 (()=>{
