@@ -101,7 +101,7 @@ ul {
 - Navigation barが使えている ([参考](https://paiza.jp/works/html/primer/beginner-html3/11021))
 
 #### デザイン点
-- レスポンシブなデザインになっている (例：画像、余白など[参考1](https://paiza.jp/works/html/primer/beginner-html2/11014).([参考2](https://paiza.jp/works/html/primer/beginner-html3/11020))
+- レスポンシブなデザインになっている (例：画像、余白など([参考1](https://paiza.jp/works/html/primer/beginner-html2/11014))([参考2](https://paiza.jp/works/html/primer/beginner-html3/11020))
 - 色使いが工夫されている ([参考1](https://paiza.jp/works/design/primer/design-1/19001))([参考2](https://paiza.jp/works/design/primer/design-1/19003) )
 - 余白が見やすいように調整されている([参考1](https://paiza.jp/works/design/primer/design-1/19001))([参考2](https://paiza.jp/works/design/primer/design-1/19006))
 
@@ -115,12 +115,11 @@ ul {
 
 ## 課題に取り組む上での注意点
 
-- <a href="#">著作物の利用について</a>を一読すること。
-- コードを見やすく書くことを意識すると、修正しやすくなります。
+- <b>著作物の利用について</b>を一読すること。
 - 全てのページが作成完了したら、「好きな〇〇を紹介するページを作成」を２つ目追加しましょう。
 - できた作品は校内のネットワークで見られるようにする予定です。
 - また、良い作品は一般公開する場合があります（※一般公開する際は声かけます）。
-
+- コードを見やすく書くことを意識すると、修正しやすくなります。
 <br/>
 
 
@@ -153,6 +152,34 @@ ul {
 <br/>
 
 <p>上記のサイトに「<a href="https://getbootstrap.jp/docs/4.3/getting-started/introduction/#%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88" target="_blank">スターターテンプレート</a>があるので利用してください。</p>
+
+<br/>
+
+```
+&lt;!doctype html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+  &lt;head&gt;
+    &lt;!-- Required meta tags --&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&gt;
+
+    &lt;!-- Bootstrap CSS --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css&quot; integrity=&quot;sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T&quot; crossorigin=&quot;anonymous&quot;&gt;
+
+    &lt;title&gt;Hello, world!&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello, world!&lt;/h1&gt;
+
+    &lt;!-- Optional JavaScript --&gt;
+    &lt;!-- jQuery first, then Popper.js, then Bootstrap JS --&gt;
+    &lt;script src=&quot;https://code.jquery.com/jquery-3.3.1.slim.min.js&quot; integrity=&quot;sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js&quot; integrity=&quot;sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js&quot; integrity=&quot;sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+```
+
 
 <br/>
 
@@ -190,9 +217,18 @@ ul {
 
 ```
 
-<p>img-fluid以外にもimg-thumbnailもあるので、そちらを使っても構わないです。</p>
+<p>img-fluid以外にもimg-thumbnailなどもあるので、好きなものを使ってください。</p>
 
+<br/>
 
+### レスポンシブデザインかどうかの確認のやり方
+
+- GoogleChromeで 「右クリック」 > 「検証」　を押す。
+- スマホのアイコンをON/OFFすることでスマホ用画面とPC用画面で切り替えることができます
+
+<img src="img/bootstrap_preview.png"/>
+
+- 上記の切り替えでデザインが崩れていなければOKです。
 
 <br/>
 <br/>
@@ -281,6 +317,52 @@ ul {
 - 引用しているかどうかを**視覚的にわかりやすく**する。
 - 引用が中心のコンテンツを避ける。（あくまで**補助として使用**）
 - 引用元の **「サイト名、記事名、URL」などを明記** する。
+
+<hr/>
+
+
+## Bootstrapを使って視覚的に引用を作る方法
+
+ブログなどで引用する場合に使われるのが<b>blockquoteタグ</b>です。
+
+<br/>
+
+以下のフォーマットで書くと引用部分であることが目で見てもわかるようになっています。
+
+<blockquote class="blockquote">
+    <pre style="background-color: #787878;color: #d7d7d7;">
+    この文章を引用します。
+    この文章を引用します。
+    この文章を引用します。
+    この文章を引用します。
+    この文章を引用します。
+    </pre>    
+    <div class="blockquote-footer">
+    引用元：（引用元のサイト名などを記載しましょう）
+    <cite>
+    http://サイトURLをここに書くと見やすいです。
+    </cite>
+    </div>
+</blockquote>
+
+```
+&lt;blockquote class=&quot;blockquote&quot;&gt;
+    &lt;pre style=&quot;background-color: #787878;color: #d7d7d7;&quot;&gt;
+    この文章を引用します。
+    この文章を引用します。
+    この文章を引用します。
+    この文章を引用します。
+    この文章を引用します。
+    &lt;/pre&gt;    
+    &lt;div class=&quot;blockquote-footer&quot;&gt;
+    引用元：（引用元のサイト名などを記載しましょう）
+    &lt;cite&gt;
+    http://サイトURLをここに書くと見やすいです。
+    &lt;/cite&gt;
+    &lt;/div&gt;
+&lt;/blockquote&gt;
+```
+
 
 <hr/>
 

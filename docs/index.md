@@ -396,7 +396,7 @@ ul {
   &lt;body class=&quot;text-center&quot;&gt;
     &lt;h1&gt;テストページです。&lt;/h1&gt;
     &lt;p&gt;Google chromeで確認できましたか？&lt;/p&gt;
-    &lt;img src=&quot;img/lion.jpg&quot; height=&quot;500&quot;/&gt;
+    &lt;img src=&quot;lion.jpg&quot; height=&quot;500&quot;/&gt;
     &lt;!-- Optional JavaScript --&gt;
     &lt;!-- jQuery first, then Popper.js, then Bootstrap JS --&gt;
     &lt;script src=&quot;https://code.jquery.com/jquery-3.3.1.slim.min.js&quot; integrity=&quot;sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
@@ -407,22 +407,16 @@ ul {
         </code>
         </pre>
         <p>編集できたら 「ctrl」+「s」を押して保存する。</p>
-
         <br/>
         <p>6. 画像をダウンロードして、作成したフォルダ内に保存をしてください。<a href="img/lion.jpg" download class="btn btn-success">画像ダウンロード</a></p>
+        <p>以下の画像のようにフォルダ内に、index.htmlとlion.pngがあればOKです。</p>
+        <img src="img/index_html_img.png" width="300">
         <br/>
         <p>7. Google Chromeを開く</p>
         <p>Google Chromeへ「index.html」をドラッグ＆ドロップする</p>
         <img src="img/index_html6.png" width="500">
     </div>
 </div>
-
-<a class="btn btn-primary" data-toggle="collapse" href="#japaneseVSCode" aria-expanded="true" aria-controls="japaneseVSCode"> Visual Studio Code日本語化したい人 </a> 
-<div class="collapse show" id="japaneseVSCode">
-    <div class="border p-3">
-    </div>
-</div>
-
 
 
 # 5.よくあるQ&A
