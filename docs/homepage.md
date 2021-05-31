@@ -333,6 +333,8 @@ ul {
 
 以下のフォーマットで書くと引用部分であることが目で見てもわかるようになっています。
 
+<br/>
+
 <blockquote class="blockquote">
     <pre style="background-color: #787878;color: #d7d7d7;">
     この文章を引用します。
@@ -348,6 +350,9 @@ ul {
     </cite>
     </div>
 </blockquote>
+
+<br/>
+引用する時に使うと便利なコード
 
 ```
 <blockquote class="blockquote">
