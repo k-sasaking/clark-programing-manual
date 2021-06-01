@@ -109,6 +109,7 @@ ul {
 
 #### その他加点項目
 - ページの内容がわかりやすくまとまっている
+- pe-zisuu
 
 <br/>
 
@@ -151,9 +152,9 @@ ul {
 
 <br/>
 
-<p>上記のサイトに「<a href="https://getbootstrap.jp/docs/4.3/getting-started/introduction/#%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88" target="_blank">スターターテンプレート</a>があるので利用してください。</p>
+<p>上記のサイトに「<a href="https://getbootstrap.jp/docs/4.3/getting-started/introduction/#%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88" target="_blank">スターターテンプレート</a>」があるので、そちらを利用します。</p>
 
-<img src="img/bootstrap_start.png">
+<p>以下に、スターターテンプレートのコードを貼ったので、コピーして自分のWebサイトで使いましょう。</p>
 
 <br/>
 
@@ -187,19 +188,42 @@ ul {
 
 ### Navigation Barの利用について
 
-<p>※paizaのnavigation barが使えないので以下のリンクから好きなものをコピーして使ってください。</p>
+<p>※paizaのnavigation barが使えないので以下のものをコピーして使ってください。</p>
 
-<a href="https://getbootstrap.jp/docs/4.3/components/navbar/" target="_blank">Bootstrap Navigation bar サンプル</a>
+
+```
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#ここにリンクを設定できます">メニュー</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#メニュー１のリンク">メニュー１</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#メニュー2のリンク">メニュー2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#メニュー3のリンク">メニュー3</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+```
+
+※「メニュー１」「メニュー２」「メニュー３」「#メニュー１のリンク」「#メニュー2のリンク」「#メニュー3のリンク」などは適宜変えるようにして使ってください。
+
+
+
+他のナビゲーションバーがいい人は、こちら（<a href="https://getbootstrap.jp/docs/4.3/components/navbar/" target="_blank">Bootstrap Navigation bar サンプル</a>
+）からコピーして使ってください。
+
 
 <p>bootstrapのナビゲーションバーのコピーのやり方</p>
 
-<img src="img/bootstrap_navbar.png">
-
-<br/>
-
-<p>NavBar以外にも、bootstrapで以下のComponentsから好きなデザインのHTMLをコピーして使うこともできます。</p>
-<img src="img/bootstrap_components.png">
-
+<img src="img/bootstrap_navbar.png" width="250">
 
 <br/>
 
@@ -326,57 +350,6 @@ ul {
 
 <hr/>
 
-
-## Bootstrapを使って視覚的に引用を作る方法
-
-ブログなどで引用する場合に使われるのが<b>blockquoteタグ</b>です。
-
-<br/>
-
-以下のフォーマットで書くと引用部分であることが目で見てもわかるようになっています。
-
-<br/>
-
-<blockquote class="blockquote">
-    <pre style="background-color: #787878;color: #d7d7d7;">
-    この文章を引用します。
-    この文章を引用します。
-    この文章を引用します。
-    この文章を引用します。
-    この文章を引用します。
-    </pre>    
-    <div class="blockquote-footer">
-    引用元：（引用元のサイト名などを記載しましょう）
-    <cite>
-    http://サイトURLをここに書くと見やすいです。
-    </cite>
-    </div>
-</blockquote>
-
-<br/>
-引用する時に使うと便利なコード
-
-```
-<blockquote class="blockquote">
-    <pre style="background-color: #787878;color: #d7d7d7;">
-    この文章を引用します。
-    この文章を引用します。
-    この文章を引用します。
-    この文章を引用します。
-    この文章を引用します。
-    </pre>    
-    <div class="blockquote-footer">
-    引用元：（引用元のサイト名などを記載しましょう）
-    <cite>
-    http://サイトURLをここに書くと見やすいです。
-    </cite>
-    </div>
-</blockquote>
-```
-
-
-<hr/>
-
 ## 画像を引用する時の注意点
 
 ### フリー素材orオリジナル画像・写真を使う
@@ -431,6 +404,49 @@ href ="https://xxxxxxxxxx.png"
 基本は、**利用する画像を自分のPC上にダウンロード**して、利用します。
 
 <hr/>
+
+## 文章を引用する方法
+
+wikipediaなどの文章を引用したい場合は、「引用」であることを視覚的にわかる必要があります。<br/>
+
+<a href="https://ja.wikipedia.org/wiki/%E8%91%97%E4%BD%9C%E6%A8%A9" target="_blank">Wikipediaの著作権について</a>を引用する場合の例を書きます。
+
+<br/>
+
+<blockquote class="blockquote">
+    <pre style="background-color: #787878;color: #d7d7d7;">
+    著作権（ちょさくけん、英語: copyright、コピーライト）は、作品を創作した者が有する権利である。また、作品がどう使われるか決めることができる権利である[1]。作者の思想や感情が表現された文芸・学術・美術・音楽などを著作物といい[2]、創作した者を著作者という。知的財産権の一種。
+    </pre>    
+    <div class="blockquote-footer">
+    引用元：（著作権 - Wikipedia）
+    <cite>
+    https://ja.wikipedia.org/wiki/%E8%91%97%E4%BD%9C%E6%A8%A9
+    </cite>
+    </div>
+</blockquote>
+
+<br/>
+
+### 文章を引用するときのポイント
+- 引用元を書く「Webサイト名」「引用元のURL」ブログであれば「記事名」など。
+- 引用であることをわかりやすくするために、引用部分の背景の色を変えるなど工夫をする。
+
+
+### 簡単な引用の見た目を作る方法
+
+一番簡単な方法としては、cssを使う方法があります。
+cssで、引用部分の背景を変えるなどして、工夫してみてください。
+
+```
+<div style="margin: 0 auto;display: inline-block;">
+    <p style="background-color: #d8d8d8;color: #3d3d3d; width:50%; margin: 30 auto;">
+    著作権（ちょさくけん、英語: copyright、コピーライト）は、作品を創作した者が有する権利である。また、作品がどう使われるか決めることができる権利である[1]。作者の思想や感情が表現された文芸・学術・美術・音楽などを著作物といい[2]、創作した者を著作者という。知的財産権の一種。（引用文章をここに書く）
+    </p>
+    <p style="font-size:12px;">引用元：（著作権 - Wikipedia） <u>https://ja.wikipedia.org/wiki/%E8%91%97%E4%BD%9C%E6%A8%A9</u>（引用元の情報を書く）</p>
+</div>
+```
+
+引用のやり方について詳しく知りたい方は[こちら](https://techacademy.jp/magazine/5755)を参考にしてみてください。
 
 
 <script>

@@ -370,8 +370,12 @@ ul {
         <p>2. 「右クリック → 新規フォルダ →　名前をつける」<br/>※フォルダ名はなんでもよし迷ったときは「プログラミング基礎」にする</p>
         <br/>
         <p>3. フォルダを開き、新規でファイルを作成する</p>
+        <p>フィイルの拡張子を表示する。（表示タブ > ファイル名拡張子に✔️）</p>
+        <img src="img/index_html_check_view.png" width="500">
         <p>ファイル作成時、名前をindex.htmlにする。</p>
         <img src="img/index_html2.png" width="500">
+        <p>※ファイル名変更のやり方（ファイルの上で右クリック > 「名前の変更」）</p>
+        <img src="img/index_html_name_change.png" width="500">
         <p>拡張子を変更するアラートが出たら、「はい」を押す。</p>
         <img src="img/index_html3.png" width="500">
         <br/>
@@ -409,6 +413,8 @@ ul {
         <p>編集できたら 「ctrl」+「s」を押して保存する。</p>
         <br/>
         <p>6. 画像をダウンロードして、作成したフォルダ内に保存をしてください。<a href="img/lion.jpg" download class="btn btn-success">画像ダウンロード</a></p>
+        <p>ダウンロードしたファイルを作成したフォルダの中にドラッグ＆ドロップする</p>
+        <img src="img/index_html_copy_img.png" width="500">
         <p>以下の画像のようにフォルダ内に、index.htmlとlion.pngがあればOKです。</p>
         <img src="img/index_html_img.png" width="300">
         <br/>
