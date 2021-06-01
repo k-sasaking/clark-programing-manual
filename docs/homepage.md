@@ -421,7 +421,7 @@ wikipediaなどの文章を引用したい場合は、**「引用」であるこ
 <br/>
 
 <blockquote class="blockquote">
-    <pre style="background-color: #787878;color: #d7d7d7;">
+    <pre style="background-color: #dcdcdc;color: #3d3dd3d;">
     著作権（ちょさくけん、英語: copyright、コピーライト）は、作品を創作した者が有する権利である。また、作品がどう使われるか決めることができる権利である[1]。作者の思想や感情が表現された文芸・学術・美術・音楽などを著作物といい[2]、創作した者を著作者という。知的財産権の一種。
     </pre>    
     <div class="blockquote-footer">
