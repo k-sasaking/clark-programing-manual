@@ -143,7 +143,7 @@ ul {
 
 
 ### Bootstrapのバージョンについて
-<p>paizaラーニングの教材では、古いversionのBootstrapを利用しているため、<b>Bootstrap4を利用してください。</b></p>
+<p>paizaラーニングの教材では、古いversionのBootstrapを利用しているため、<b class="color:red;">Bootstrap4を利用してください。</b></p>(paizaはbootstrap3です。)
 
 以下の<b>Bootstrap4</b>を利用するようにしてください。
 
@@ -151,9 +151,7 @@ ul {
 
 <br/>
 
-<p>上記のサイトに「<a href="https://getbootstrap.jp/docs/4.3/getting-started/introduction/#%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88" target="_blank">スターターテンプレート</a>」があるので、そちらを利用します。</p>
-
-<p>以下に、スターターテンプレートのコードを貼ったので、コピーして自分のWebサイトで使いましょう。</p>
+<p>「<a href="https://getbootstrap.jp/docs/4.3/getting-started/introduction/#%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88" target="_blank">スターターテンプレート</a>」があるので、以下のコードを利用して使いましょう。</p>
 
 <br/>
 
@@ -224,7 +222,7 @@ ul {
 
 <p>bootstrapのナビゲーションバーのコピーのやり方</p>
 
-<img src="img/bootstrap_navbar.png" width="300">
+<img src="img/bootstrap_navbar.png">
 
 <br/>
 
@@ -242,7 +240,7 @@ ul {
 <br/>
 <br/>
 
-<p>img-fluid以外にもimg-thumbnailを指定するなどすることもできます。(<a href="https://getbootstrap.jp/docs/4.3/content/images/"">参考サイト</a>)</p>
+<p>img-fluid以外にもimg-thumbnailを指定するなどすることもできます。(<a href="https://getbootstrap.jp/docs/4.3/content/images/" target="_blank">参考サイト</a>)</p>
 
 <br/>
 
