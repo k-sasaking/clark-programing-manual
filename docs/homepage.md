@@ -98,7 +98,6 @@ ul {
 - リストが使えている ([参考](https://paiza.jp/works/html/primer/beginner-html3/11021))
 - テーブルが使えている ([参考](https://paiza.jp/works/html/primer/beginner-html3/11022))
 - グリッドシステムが使えている ([参考](https://paiza.jp/works/html/primer/beginner-html3/11025))
-- Navigation barが使えている ([参考](https://paiza.jp/works/html/primer/beginner-html3/11021))
 
 #### デザイン点
 - レスポンシブなデザインになっている (例：画像、余白など([参考1](https://paiza.jp/works/html/primer/beginner-html2/11014))([参考2](https://paiza.jp/works/html/primer/beginner-html3/11020))
@@ -106,10 +105,10 @@ ul {
 - 余白が見やすいように調整されている([参考1](https://paiza.jp/works/design/primer/design-1/19001))([参考2](https://paiza.jp/works/design/primer/design-1/19006))
 
 
-
 #### その他加点項目
+- Navigation barが使えている ([参考](https://paiza.jp/works/html/primer/beginner-html3/11021))
 - ページの内容がわかりやすくまとまっている
-- pe-zisuu
+- ページ数
 
 <br/>
 
@@ -188,12 +187,12 @@ ul {
 
 ### Navigation Barの利用について
 
-<p>※paizaのnavigation barが使えないので以下のものをコピーして使ってください。</p>
+**※paizaのnavigation barが使えないので以下のものをコピーして使ってください。**
 
 
 ```
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#ここにリンクを設定できます">メニュー</a>
+  <a class="navbar-brand" href="#">メニュー</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -213,37 +212,37 @@ ul {
 </nav>
 ```
 
-※「メニュー１」「メニュー２」「メニュー３」「#メニュー１のリンク」「#メニュー2のリンク」「#メニュー3のリンク」などは適宜変えるようにして使ってください。
+※「メニュー」「メニュー１」「メニュー２」「メニュー３」「#メニュー１のリンク」「#メニュー2のリンク」「#メニュー3のリンク」などは 、適宜変えるようにして使ってください。
 
+<br/>
+<br/>
+<br/>
 
-
-他のナビゲーションバーがいい人は、こちら（<a href="https://getbootstrap.jp/docs/4.3/components/navbar/" target="_blank">Bootstrap Navigation bar サンプル</a>
+他のナビゲーションバーを使いたい人は、こちら（<a href="https://getbootstrap.jp/docs/4.3/components/navbar/" target="_blank">Bootstrap Navigation bar サンプル</a>
 ）からコピーして使ってください。
 
 
 <p>bootstrapのナビゲーションバーのコピーのやり方</p>
 
-<img src="img/bootstrap_navbar.png" width="250">
+<img src="img/bootstrap_navbar.png" width="300">
 
 <br/>
 
 ### 画像のレスポンシブ化について
 
-<p>※paizaのimg-responsiveが古くて使えないので以下のリンクから好きなものをコピーして使ってください。</p>
+**※paizaのimg-responsiveが古くて使えないので以下のリンクから好きなものをコピーして使ってください。**
 
-<a href="https://getbootstrap.jp/docs/4.3/content/images/" target="_blank">Bootstrap Image サンプル</a>
-
-<br/>
-
-<p>やり方</p>
-<p>以下のように、img-fluidのようにclassの中に値を入れてください。</p>
+<p>以下のように、<b style="color:red;">classの中に"img-fluid"</b>を入れてください。</p>
 
 ```
 <img class="img-fluid" src="xxxxx.png" />
-
 ```
 
-<p>img-fluid以外にもimg-thumbnailなどもあるので、好きなものを使ってください。</p>
+<br/>
+<br/>
+<br/>
+
+<p>img-fluid以外にもimg-thumbnailを指定するなどすることもできます。(<a href="https://getbootstrap.jp/docs/4.3/content/images/"">参考サイト</a>)</p>
 
 <br/>
 
