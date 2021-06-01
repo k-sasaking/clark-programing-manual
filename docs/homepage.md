@@ -445,13 +445,29 @@ wikipediaなどの文章を引用したい場合は、**「引用」であるこ
 cssで、引用部分の背景を変えるなどして、工夫してみてください。
 
 ```
-<div style="margin: 0 auto;display: inline-block;">
-    <p style="background-color: #d8d8d8;color: #3d3d3d; width:50%; margin: 30 auto;">
+<div style="margin: 0 auto;">
+    <p style="background-color: #d8d8d8;color: #3d3d3d; margin: 30 auto;">
     著作権（ちょさくけん、英語: copyright、コピーライト）は、作品を創作した者が有する権利である。また、作品がどう使われるか決めることができる権利である[1]。作者の思想や感情が表現された文芸・学術・美術・音楽などを著作物といい[2]、創作した者を著作者という。知的財産権の一種。（引用文章をここに書く）
     </p>
     <p style="font-size:12px;">引用元：（著作権 - Wikipedia） <u>https://ja.wikipedia.org/wiki/%E8%91%97%E4%BD%9C%E6%A8%A9</u>（引用元の情報を書く）</p>
 </div>
 ```
+
+上記のコードを実行すると以下のような見た目になります。
+
+<br/>
+<div style="margin: 0 auto;">
+    <p style="background-color: #d8d8d8;color: #3d3d3d; margin: 30 auto;">
+    著作権（ちょさくけん、英語: copyright、コピーライト）は、作品を創作した者が有する権利である。また、作品がどう使われるか決めることができる権利である[1]。作者の思想や感情が表現された文芸・学術・美術・音楽などを著作物といい[2]、創作した者を著作者という。知的財産権の一種。（引用文章をここに書く）
+    </p>
+    <p style="font-size:12px;">引用元：（著作権 - Wikipedia） <u>https://ja.wikipedia.org/wiki/%E8%91%97%E4%BD%9C%E6%A8%A9</u>（引用元の情報を書く）</p>
+</div>
+
+<br/>
+<br/>
+<br/>
+
+
 
 引用のやり方について詳しく知りたい方は[こちら](https://techacademy.jp/magazine/5755)を参考にしてみてください。
 
