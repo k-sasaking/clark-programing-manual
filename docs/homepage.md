@@ -143,15 +143,13 @@ ul {
 
 
 ### Bootstrapのバージョンについて
-<p>paizaラーニングの教材では、古いversionのBootstrapを利用しているため、<b class="color:red;">Bootstrap4を利用してください。</b></p>(paizaはbootstrap3です。)
+<p>paizaラーニングの教材では、古いversionのBootstrap（bootstrap3）を利用しているため、<b class="color:red;">Bootstrap4を利用してください。
 
-以下の<b>Bootstrap4</b>を利用するようにしてください。
 
-<a href="https://getbootstrap.jp/docs/4.3/getting-started/introduction/" target="_blank">https://getbootstrap.jp/docs/4.3/getting-started/introduction/</a>
 
 <br/>
 
-<p>「<a href="https://getbootstrap.jp/docs/4.3/getting-started/introduction/#%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88" target="_blank">スターターテンプレート</a>」があるので、以下のコードを利用して使いましょう。</p>
+<p>Bootstrap4の「<a href="https://getbootstrap.jp/docs/4.3/getting-started/introduction/#%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88" target="_blank">スターターテンプレート</a>」があるので、以下のコードをコピーして使って下さい。</p>
 
 ```
 <!doctype html>
@@ -180,6 +178,11 @@ ul {
 
 
 <br/>
+
+※参考　Bootstap4の公式サイト
+
+<a href="https://getbootstrap.jp/docs/4.3/getting-started/introduction/" target="_blank">https://getbootstrap.jp/docs/4.3/getting-started/introduction/</a>
+
 
 ### Navigation Barの利用について
 
@@ -226,7 +229,7 @@ ul {
 
 ### 画像のレスポンシブ化について
 
-**※paizaのimg-responsiveが古くて使えないので以下のリンクから好きなものをコピーして使ってください。**
+**※paizaのimg-responsiveが古くて使えないので以下のコードをコピーして使ってください。**
 
 <p>以下のように、<b style="color:red;">classの中に"img-fluid"</b>を入れてください。</p>
 
