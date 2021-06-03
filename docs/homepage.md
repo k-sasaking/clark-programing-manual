@@ -143,7 +143,7 @@ section ul {
 
 
 ### Bootstrapのバージョンについて
-<p>paizaラーニングの教材では、古いversionのBootstrap（bootstrap3）を利用しているため、<b class="color:red;">Bootstrap4を利用してください。
+<p>paizaラーニングの教材では、古いversionのBootstrap（Bootstrap3）を利用しているため、<b class="color:red;">Bootstrap4を利用してください。</b>
 
 
 
