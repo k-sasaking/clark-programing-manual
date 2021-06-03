@@ -177,7 +177,7 @@ section ul {
 
 <br>
 
-※参考　Bootstap4の公式サイト
+参考資料 Bootstap4の公式サイト
 
 <a href="https://getbootstrap.jp/docs/4.3/getting-started/introduction/" target="_blank">https://getbootstrap.jp/docs/4.3/getting-started/introduction/</a>
 
