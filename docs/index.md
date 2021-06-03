@@ -96,7 +96,7 @@ ol li{
 .header--unpinned {
     display: none;
 }
-ul {
+section ul {
     list-style-type: disc !important;
     list-style-image: none !important;
 }

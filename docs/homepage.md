@@ -60,7 +60,7 @@ ol li{
 section {
     margin-top: 30px;
 }
-ul {
+section ul {
     list-style-type: disc !important;
     list-style-image: none !important;
 }
