@@ -404,7 +404,7 @@ google画像検索やWebサイト上に**アップロードされている画像
 **直リンク**とは、**aタグのhref属性の値に"https"がついているもの**を使うことです。（直リンクで利用可の場合はOK）
 
 ```
-href ="https://xxxxxxxxxx.png"
+src="https://xxxxxxxxxx.png"
 ```
 
 直リンクは、相手のサーバーに負荷をかけてしまうため、<span style="color:red;">原則禁止</span>です。
