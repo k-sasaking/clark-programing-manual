@@ -1,0 +1,271 @@
+<script>
+(() => {
+    // 不要なバナー & フッター削除
+    let bannerTags = document.getElementById("banner");
+    bannerTags.remove();
+    setTimeout(() =>{
+        let footerTags = document.getElementsByTagName("footer");
+        footerTags[0].remove();
+
+        let h2Tag = document.getElementsByClassName("tag-h2");
+        if(h2Tag){
+            let tags_count = h2Tag.length
+            for(let i=0;i<tags_count;i++){
+                h2Tag[0].remove();
+            }
+        }
+    }, 300);
+    // ヘッダー非表示
+    let headers = document.getElementsByTagName("header");
+    headers[0].classList.add('d-none');
+
+})();
+</script>
+
+
+# HTML講座１
+
+
+## HTMLって何？
+
+**HTML**とは、<i>Hyper Text Markup Language</i>の略
+
+Markupとは、文字に<span style="background:linear-gradient(transparent 0%, #c1e0ff 0%);font-weight: bold; ">マーキング（印）</span>をすることです。
+
+<br/>
+
+マーキングは、**タグ**を使うことで表現することができます。
+
+具体的には、以下のように「こんにちは」を目立たせたい時は、以下のように表現することができます。
+
+```
+おはよう<b>こんにちは</b>こんばんは
+```
+
+このbのタグで囲まれた部分は、「**太字**」になります。
+
+```
+<b>   </b>
+```
+
+以下のものを**開始タグ**と言います。
+```
+<b>
+```
+
+以下の/が付いているものを**閉じタグ**と言います。
+
+```
+</b>
+```
+
+開始タグと閉じタグで囲まれた部分に効果を発揮します。
+
+<br/>
+
+※「開始タグ」「閉じタグ」がなく、以下のように単体で書くこともできます。（一部のタグのみ）
+
+```
+<b/>
+```
+
+<br/>
+<br/>
+<br/>
+
+## タグの効果
+
+タグには、bタグのようにいろいろな効果があります。<br/>
+例えば、**文字の大きさ**を変える、**太字**にする、線を引く...<br/>
+
+<br/>
+
+<a href="https://paiza.jp/works/html/primer/beginner-html1/11001" target="_blank">paiza ラーニングの講義の右側のページ</a>を使って以下のコードをコピーして「コードの実行」してみよう。
+
+
+```
+この文字を<b>太字</b>にします。<br/>
+この文字を<i>斜体</i>にします。<br/>
+この文字を<u>下線</u>にします。<br/>
+この文字を<s>取り消し線</s>にします。<br/>
+```
+
+## タグの意味
+
+- bタグ: 太字にする
+- iタグ: 斜体にする
+- uタグ: 下線を引く
+- sタグ: 取り消し線を引く
+- brタグ: 改行　(※単体で効果を発揮するタグ)
+
+<br/>
+
+## HTMLファイル
+HTMLファイルを作る時、htmlタグを使ってHTMLファイルであることを明記することができます。
+
+```
+<html></html>
+```
+
+<br/>
+
+## HeadとBody
+
+- HEAD(頭)　・・・　考えていることは目に見えない
+- BODY(体)　・・・　体は目に見える部分
+
+HEADは、**頭の中身**です。<br/>
+実際は、いろいろなファイルを読み込んだり、HTMLファイルの定義を書きます。
+<br/><br/><br/>
+BODYは、我々がWebブラウザ（safariやgoogle chromeなど）を見たときに、**実際に目に見える部分**です。<br/><br/><br/>
+
+HTMLファイルは、以下のようにHTMLタグ、HEADタグ、BODYタグを使って表現します。
+
+```
+<html>
+<head>ここでHTMLファイルの定義やファイルを読み込みます</head>
+<body>ここに目に見える部分を表示</body>
+</html>
+```
+
+<br/>
+
+
+## 基本的なタグ
+
+<a href="https://paiza.jp/works/html/primer/beginner-html1/11001" target="_blank">paiza ラーニングの講義の右側のページ</a>を使って以下のコードをコピーして「コードの実行」してみよう。
+
+
+```
+<h1>見出し１：Webサイト名や大きなタイトルなどに使用する</h1>
+<h2>見出し２：大きなタイトルやサブタイトルに使用</h2>
+<h3>見出し３：h1やh2の下に小さなタイトルを置きたいときに使用</h3>
+<h4>見出し４：h1,h2,h3の下にタイトルを置きたいときに使用</h4>
+<h5>見出し５：h4と同じ</h5>
+<h6>見出し６：h4と同じ(h6まで作れるよ！）</h6>
+
+<p>pタグは、パラグラフ（段落）という意味のタグです。この作文などで段落で文章を書きますが、その段落の単位で文章を書くことができます。説明文や長い文章を書くときに便利です。</p>
+
+<a href="#">アンカーリンクタグです。ページを遷移するときに使います。hrefの中に遷移先のURLを書きましょう。</a>
+
+<img src="https://k-sasaking.github.io/clark-programing-manual/img/test-img.png"/>
+
+<div>divタグで囲まれると、特に効果はないですが、レイアウトとして区切ることができます。１つのブロックとしてまとめるときに便利です。（divは、division:分割という意味）</div>
+
+```
+
+<br/>
+
+
+## 複数のタグで表現できるタグ（リストとテーブル）
+
+
+```
+<ul>
+    <li>ulタグはリストの表示をすることができるタグです。</li>
+    <li>ulタグの中に、liタグを入れるとはリストの表示をすることができるタグです。</li>
+    <li>liタグはいくつも書くことで、箇条書きなどをするときに便利です。</li>
+    <li>ulタグとliタグはセットで使いましょう。</li>
+</ul>
+
+
+<ol>
+    <li>olタグもリストの表示をすることができるタグです。</li>
+    <li>ulタグとolタグの違いは、「・」か「数字」の違いです。</li>
+    <li>liタグはいくつも書くことで、箇条書きなどをするときに便利です。</li>
+    <li>olタグとliタグはセットで使いましょう。</li>
+</ol>
+
+<table>
+    <tr>
+        <th>タグ</th>
+        <th>タグの説明</th>
+        <th>備考</th>
+    </tr>
+    <tr>
+        <td>table</td>
+        <td>テーブルタグは表を作るときに使います。</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>tr</td>
+        <td>trは、表の行を表すタグです。trのタグの数だけ行を追加できます。</td>
+        <td>trはtable rowの略</td>
+    </tr>
+    <tr>
+        <td>th</td>
+        <td>thは、表のヘッダータグです。この表の「タグ」「タグの説明」「備考」の部分。trタグの中に書きます。表のヘッダーがいらない場合はなくて良い。</td>
+        <td>thはtable headerの略</td>
+    </tr>
+    <tr>
+        <td>td</td>
+        <td>tdは、表のデータを挿入するタグです。trタグの中に書きます。</td>
+        <td>tdはtable dataの略</td>
+    </tr>
+</table>
+```
+
+<br/>
+
+## 上記のタグを使って自己紹介ページを作るとどうなる？
+
+サンプル
+
+```
+<html>
+<head>
+</head>
+<body>
+<html>
+<head>
+</head>
+<body>
+   <h1>Webサイトの名前</h1>
+   <p>
+       私のWebサイトにアクセスありがとうございます。<br/>
+       私のWebサイトでは、プロフィールや好きなことの紹介をしています。
+   </p>
+   <h2>私のプロフィール</h2>
+   <table>
+       <tr>
+            <td>名前</td>        
+            <td>〇〇太郎</td>           
+       </tr>
+       <tr>
+            <td>写真</td>        
+            <td><img src=""/></td>           
+       </tr>
+       <tr>
+            <td>誕生日</td>        
+            <td>20XX年M月D日</td>           
+       </tr>
+       <tr>
+            <td>出身</td>        
+            <td>地球</td>           
+       </tr>
+       <tr>
+            <td>趣味</td>        
+            <td>プログラミングを勉強すること</td>           
+       </tr>
+   </table>
+   <h2>私の好きなこと</h2>
+   <ul>
+       <li><a href="#">好きな漫画</a></li>
+       <li><a href="#">好きなゲーム</a></li>
+       <li><a href="#">好きなYoutube</a></li>
+   </ul>
+</body>
+</html>
+```
+
+
+<script>
+(()=>{
+    var hd = document.getElementsByTagName('header')
+    hd[0].remove();
+})();
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
