@@ -428,8 +428,17 @@ section ul {
     </div>
 </div>
 
+# 5.オリジナル教材
 
-# 5.よくあるQ&A
+<a data-toggle="collapse" href="#original" aria-expanded="true" aria-controls="original"> エクストリーム授業 </a><span style="color:red;"> New 6/27</span>
+<div class="collapse m-3" id="original">
+    <div class="border p-3">
+      <a href="https://k-sasaking.github.io/clark-programing-manual/practice/p1.html">エクストリームHTML講座1</a>
+    </div>
+</div>
+
+
+# 6.よくあるQ&A
 
 <a data-toggle="collapse" href="#qa1" aria-expanded="false" aria-controls="qa1"> Q1)paizaのログインパスワードを忘れました </a>
 <div class="collapse m-3" id="qa1">
