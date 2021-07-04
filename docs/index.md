@@ -433,7 +433,10 @@ section ul {
 <a data-toggle="collapse" href="#original" aria-expanded="true" aria-controls="original"> エクストリーム授業 </a><span style="color:red;"> New 6/27</span>
 <div class="collapse m-3" id="original">
     <div class="border p-3">
-      <a href="https://k-sasaking.github.io/clark-programing-manual/practice/p1.html">エクストリームHTML講座1</a>
+      <ul>
+        <li><a href="https://k-sasaking.github.io/clark-programing-manual/practice/p1.html">エクストリームHTML講座</a></li>
+        <li><a href="https://k-sasaking.github.io/clark-programing-manual/practice/p2.html">エクストリームCSS講座</a></li>
+      </ul>
     </div>
 </div>
 
