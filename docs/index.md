@@ -430,12 +430,13 @@ section ul {
 
 # 5.オリジナル教材
 
-<a data-toggle="collapse" href="#original" aria-expanded="true" aria-controls="original"> エクストリーム授業 </a><span style="color:red;"> New 6/27</span>
+<a data-toggle="collapse" href="#original" aria-expanded="true" aria-controls="original"> エクストリーム授業 </a><span style="color:red;"> New 7/8</span>
 <div class="collapse m-3" id="original">
     <div class="border p-3">
       <ul>
         <li><a href="https://k-sasaking.github.io/clark-programing-manual/practice/p1.html">エクストリームHTML講座</a></li>
         <li><a href="https://k-sasaking.github.io/clark-programing-manual/practice/p2.html">エクストリームCSS講座</a></li>
+        <li><a href="https://k-sasaking.github.io/clark-programing-manual/practice/p3.html">エクストリームBootstrap講座1</a></li>
       </ul>
     </div>
 </div>
