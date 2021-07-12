@@ -112,7 +112,7 @@ section ul {
 
 <br/>
 
-## 提出方法 <span style="color:red;"> New 6/1</span>
+## 提出方法 <span style="color:red;"> New 7/12</span>
 
 フォルダを開いて、以下のアドレスにアクセスしてください。
 
