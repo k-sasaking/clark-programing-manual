@@ -437,6 +437,7 @@ section ul {
         <li><a href="https://k-sasaking.github.io/clark-programing-manual/practice/p1.html">エクストリームHTML講座</a></li>
         <li><a href="https://k-sasaking.github.io/clark-programing-manual/practice/p2.html">エクストリームCSS講座</a></li>
         <li><a href="https://k-sasaking.github.io/clark-programing-manual/practice/p3.html">エクストリームBootstrap講座1</a></li>
+        <li><a href="https://k-sasaking.github.io/clark-programing-manual/practice/p4.html">エクストリームBootstrap講座2</a></li>
       </ul>
     </div>
 </div>
