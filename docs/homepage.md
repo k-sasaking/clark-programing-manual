@@ -118,14 +118,13 @@ section ul {
 
 フォルダの上のバーに入力する。
 
-- 1組の生徒: 「¥¥student-sv01¥intro-site¥2021¥1¥」 
-- 2組の生徒: 「¥¥student-sv01¥intro-site¥2021¥2¥」
-- 3組の生徒: 「¥¥student-sv01¥intro-site¥2021¥3¥」
-- 4組の生徒: 「¥¥student-sv01¥intro-site¥2021¥4¥」
+- 1組の生徒: 「¥¥10.155.0.1¥intro-site¥2021¥1¥」 
+- 2組の生徒: 「¥¥10.155.0.1¥intro-site¥2021¥2¥」
+- 3組の生徒: 「¥¥10.155.0.1¥intro-site¥2021¥3¥」
+- 4組の生徒: 「¥¥10.155.0.1¥intro-site¥2021¥4¥」
 
 
 <img src="img/hp_export.png">
-
 
 
 ① **自分の出席番号**のフォルダを開く
@@ -144,6 +143,28 @@ section ul {
 
 https://intro.local.clark-next.tokyo/2021/クラス/出席番号
 
+<br/>
+<br/>
+<br/>
+
+上記のやり方でアクセスできなかった場合は、以下の方法も試してみてください。
+
+① デスクトップ上で、右クリック > 新規作成 > ショートカットを押す。
+
+<img src="img/make_shortcut1.png">
+
+
+
+② 入力するところに、アドレスを入力する。
+
+「¥¥10.155.0.1¥intro-site¥」
+
+<img src="img/make_shortcut2.png">
+
+
+<br/>
+<br/>
+<br/>
 
 ## 課題に取り組む上での注意点
 
