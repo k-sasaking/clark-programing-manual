@@ -118,10 +118,10 @@ section ul {
 
 フォルダの上のバーに入力する。
 
-- 1組の生徒: 「\\student-sv01\intro-site\2021\1」 
-- 2組の生徒: 「\\student-sv01\intro-site\2021\2」
-- 3組の生徒: 「\\student-sv01\intro-site\2021\3」
-- 4組の生徒: 「\\student-sv01\intro-site\2021\4」
+- 1組の生徒: 「¥¥student-sv01¥intro-site¥2021¥1¥」 
+- 2組の生徒: 「¥¥student-sv01¥intro-site¥2021¥2¥」
+- 3組の生徒: 「¥¥student-sv01¥intro-site¥2021¥3¥」
+- 4組の生徒: 「¥¥student-sv01¥intro-site¥2021¥4¥」
 
 
 <img src="img/hp_export.png">
