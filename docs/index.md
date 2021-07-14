@@ -123,7 +123,7 @@ section ul {
         <span style="color:red;">範囲</span>（Lesson1:全て  Lesson2:01〜06  Lesson3: 01,02）
         </p>
         <p class="text-center">↓</p>
-        <p class="text-center"><a href="homepage.html" target="_blank">自己紹介HP製作</a> <span style="color:red;"> New 5/24</span></p>
+        <p class="text-center"><a href="homepage.html" target="_blank">自己紹介HP製作</a> <span style="color:red;"> New 7/14</span></p>
         <p class="text-center">↓</p>
         <p class="text-center">JavaScript体験編 （<a href="#paizaRange">Paizaの学習範囲</a>）<br/>（全てのチャプター）</p>
         <p class="text-center">↓</p>
@@ -430,7 +430,7 @@ section ul {
 
 # 5.オリジナル教材
 
-<a data-toggle="collapse" href="#original" aria-expanded="true" aria-controls="original"> エクストリーム授業 </a><span style="color:red;"> New 7/8</span>
+<a data-toggle="collapse" href="#original" aria-expanded="true" aria-controls="original"> エクストリーム授業 </a><span style="color:red;"> New 7/14</span>
 <div class="collapse m-3" id="original">
     <div class="border p-3">
       <ul>

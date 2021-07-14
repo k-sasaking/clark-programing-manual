@@ -114,7 +114,7 @@ section ul {
 
 ## 提出期限 <span style="color:red;"> New 7/14</span>
 
-<span style="color:red;"> 8/27 23:59</span>
+<span style="color:red;"> 8/27（金） 23:59</span>
 
 
 ## 提出方法 <span style="color:red;"> New 7/14</span>
