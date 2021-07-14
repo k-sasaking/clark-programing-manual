@@ -121,11 +121,11 @@ section ul {
 [https://drive.google.com/drive/u/0/folders/1S7t3_F88_bo_O1X083zOO795KR_dLYDq](https://drive.google.com/drive/u/0/folders/1S7t3_F88_bo_O1X083zOO795KR_dLYDq)
 
 
-① 自分のクラスを選択
+#### ① 自分のクラスを選択**
 <img src="img/new_deploy_hp0.png">
 
 
-② デスクトップのindex.htmlの入っているフォルダ名を以下ののように変更する。
+#### ② デスクトップのindex.htmlの入っているフォルダ名を以下のように変更する。
 
 ※フォルダ名のルール：**myoji_namae**となるように書く。（例：**sasaki_kazuya**)
 
@@ -138,7 +138,7 @@ section ul {
 <img src="img/new_deploy_hp1.png">
 
 
-③ デスクトップのフォルダをgoogle driveにドラッグ＆ドロップする。
+#### ③ デスクトップのフォルダをgoogle driveにドラッグ＆ドロップする。
 
 <img src="img/new_deploy_hp2.png">
 
