@@ -112,55 +112,38 @@ section ul {
 
 <br/>
 
-## 提出方法 <span style="color:red;"> New 7/12</span>
+## 提出方法 <span style="color:red;"> New 7/14</span>
 
-フォルダを開いて、以下のアドレスにアクセスしてください。
+**提出方法が変わりました。**
 
-フォルダの上のバーに入力する。
+■提出先URL
 
-- 1組の生徒: 「¥¥10.155.0.1¥intro-site¥2021¥1¥」 
-- 2組の生徒: 「¥¥10.155.0.1¥intro-site¥2021¥2¥」
-- 3組の生徒: 「¥¥10.155.0.1¥intro-site¥2021¥3¥」
-- 4組の生徒: 「¥¥10.155.0.1¥intro-site¥2021¥4¥」
+[https://drive.google.com/drive/u/0/folders/1S7t3_F88_bo_O1X083zOO795KR_dLYDq](https://drive.google.com/drive/u/0/folders/1S7t3_F88_bo_O1X083zOO795KR_dLYDq)
 
 
-<img src="img/hp_export.png">
+① 自分のクラスを選択
+<img src="img/new_deploy_hp0.png">
 
 
-① **自分の出席番号**のフォルダを開く
+② デスクトップのindex.htmlの入っているフォルダ名を以下ののように変更する。
 
-② 自分のフォルダの配下に、**index.html**を置く
+※フォルダ名のルール：**myoji_namae**となるように書く。（例：**sasaki_kazuya**)
 
-<img src="img/deploy_hp.png">
+- 半角英数字
+- フルネーム
+- 記号は**_**を使う
 
+**上記のルールに基づいてないと評価対象にならない場合があるので、守るようにしてください。**
 
-③ ちゃんと表示されるかどうかを確認する
-
-<br/>
-
-
-以下のURLにクラス(1,2,3,4)と出席番号(1,2,3......40)
-
-https://intro.local.clark-next.tokyo/2021/クラス/出席番号
-
-<br/>
-<br/>
-<br/>
-
-上記のやり方でアクセスできなかった場合は、以下の方法も試してみてください。
-
-① デスクトップ上で、右クリック > 新規作成 > ショートカットを押す。
-
-<img src="img/make_shortcut1.png">
+<img src="img/new_deploy_hp1.png">
 
 
+③ デスクトップのフォルダをgoogle driveにドラッグ＆ドロップする。
 
-② 入力するところに、アドレスを入力する。
+<img src="img/new_deploy_hp2.png">
 
-「¥¥10.155.0.1¥intro-site¥」
 
-<img src="img/make_shortcut2.png">
-
+**※万が一、操作ミス等で他人のフォルダやクラスのフォルダなどを変更してしまった場合は、先生にDMで連絡してください。**
 
 <br/>
 <br/>
