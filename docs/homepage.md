@@ -151,7 +151,7 @@ section ul {
 **※万が一、操作ミス等で他人のフォルダやクラスのフォルダなどを変更してしまった場合は、先生にDMで連絡してください。**
 
 
-※**ホームページの最初のhtmlファイルの名前を必ず「<sapn style="color:red;">index.html</span>」という名前にしてください。**
+**※ホームページの最初のhtmlファイルの名前を必ず「<span style="color:red;">index.html</span>」という名前にしてください。**
 
 <br/>
 <br/>
