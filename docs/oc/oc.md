@@ -27,19 +27,22 @@
 
 ゲーム・アプリコースのオープンキャンパスへようこそ！
 
+<br/>
 
-プロから学ぶプログラミング授業で、授業の一部を体験してもいます！
+プロから学ぶプログラミング授業で、授業の一部を体験できます。
 
-実際のプログラミングの基礎も学べるのでお楽しみにしてください。
+テキストにアクセスしてみてください。
 
-１日目「<a href="oc1.html">プロから学ぶjavscriptでプログラミング</a>」
-２日目「<a href="oc2.html">プロから学ぶjavascriptで占いゲーム</a>」
-３日目「<a href="oc3.html">プロから学ぶjavascritpでジャンケンゲーム</a>」
+### Day１「<a href="oc1.html" target="_blank">プロから学ぶjavscriptでプログラミング</a>」
+
+### Day２「<a href="oc2.html" target="_blank">プロから学ぶjavascriptで占いゲーム</a>」
+
+### Day３「<a href="oc3.html" target="_blank">プロから学ぶjavascritpでジャンケンゲーム</a>」
 
 
 ３日の講座を終えると、以下のようなゲームを作ることができますので、一緒にやっていきましょう！
 
-<a href="janken.html">成果物例</a>
+<a href="janken.html" target="_blank">成果物例</a>
 
 
 <script>
