@@ -21,7 +21,13 @@
 
 })();
 </script>
-
+<style>
+.enshu {
+    color: blue;
+    border: 1px solid;
+    padding: 30px;
+}
+</style>
 
 # Day1: プロから学ぶjavscriptでプログラミング
 
@@ -108,12 +114,11 @@ console.log("ここに好きな文字を入れてね！")
 ```
 
 <div class="enshu">
-
-### 演習問題１
+ 演習問題１
+</div>
 
 ①「プログラミング楽しい」と出力しなさい。 ★☆☆☆☆
 
-</div>
 
 <br/>
 <hr/>
@@ -202,8 +207,8 @@ console.log(name1)
 <br/>
 
 <div class="enshu">
-
-### 演習問題2
+ 演習問題2
+</div>
 
 ①「こんにちは」だけを出力しなさい。 ★☆☆☆☆
 
@@ -248,7 +253,6 @@ name1 = "花子"
 name2 = "太郎"
 ```
 
-</div>
 
 <br/>
 <hr/>
@@ -327,8 +331,8 @@ console.log(a ** b)
 - べき乗: **
 
 <div class="enshu">
-
-### 演習問題3
+ 演習問題3
+</div>
 
 ① 計算練習をしてみよう。★★☆☆☆
 
@@ -354,7 +358,6 @@ console.log()
 // 100の3乗を表示
 console.log()
 ```
-</div>
 
 <br/>
 <br/>
@@ -411,8 +414,8 @@ num++
 <br/>
 
 <div class="enshu">
-
-### 演習問題4
+ 演習問題4
+</div>
 
 ① 計算練習をしてみよう。★★★☆☆
 
@@ -432,8 +435,6 @@ console.log(num)
 
 console.log(num)
 ```
-
-</div>
 
 <br/>
 <br/>
@@ -464,8 +465,8 @@ console.log(num + moji)
 この結果から分かる通り、**文字列と数値の足し算**は、**文字列**になります。
 
 <div class="enshu">
-
-### 演習問題5
+ 演習問題5
+</div>
 
 演算をして結果を表示してみよう★★★★☆
 
@@ -503,8 +504,6 @@ console.log()
 777
 37
 ```
-
-</div>
 
 <br/>
 <hr/>
@@ -562,12 +561,10 @@ for(var i=3; i<5 ;i++){
 ```
 
 <div class="enshu">
-
-### 演習問題6
-
-
-
+ 演習問題6
 </div>
+
+
 
 <br/>
 <hr/>
