@@ -645,7 +645,7 @@ for(var i=3; i<5 ;i++){
 ○○○○○
 ```
 
-<span style="color:blue;">③出力結果になるように処理を書きましょう。★★★★★★★</span>
+<span style="color:blue;">④出力結果になるように処理を書きましょう。★★★★★★★</span>
 
 ※for文を使ってください。
 
