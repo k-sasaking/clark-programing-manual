@@ -23,9 +23,12 @@
 </script>
 <style>
 .enshu {
-    color: blue;
+    color: white;
+    background-color: blue;
     border: 1px solid;
-    padding: 30px;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-bottom: 20px;
 }
 </style>
 
@@ -117,7 +120,7 @@ console.log("ここに好きな文字を入れてね！")
  演習問題１
 </div>
 
-①「プログラミング楽しい」と出力しなさい。 ★☆☆☆☆
+<span style="color:blue;">①「プログラミング楽しい」と出力しなさい。 ★☆☆☆☆</span>
 
 
 <br/>
@@ -210,7 +213,7 @@ console.log(name1)
  演習問題2
 </div>
 
-①「こんにちは」だけを出力しなさい。 ★☆☆☆☆
+<span style="color:blue;">①「こんにちは」だけを出力しなさい。 ★☆☆☆☆</span>
 
 ```
 var morning = "おはよう"
@@ -223,7 +226,7 @@ var night = "こんばんは"
 
 <br/>
 
-② name1とname2の値を入れ替えて表示しなさい。★★★☆☆
+<span style="color:blue;">② name1とname2の値を入れ替えて表示しなさい。★★★☆☆</span>
 
 ```
 var name1 = "太郎"
@@ -334,7 +337,7 @@ console.log(a ** b)
  演習問題3
 </div>
 
-① 計算練習をしてみよう。★★☆☆☆
+<span style="color:blue;">① 計算練習をしてみよう。★★☆☆☆</span>
 
 ```
 var a = 100
@@ -417,7 +420,7 @@ num++
  演習問題4
 </div>
 
-① 計算練習をしてみよう。★★★☆☆
+<span style="color:blue;">① 計算練習をしてみよう。★★★☆☆</span>
 
 ```
 var num = 100
@@ -468,7 +471,7 @@ console.log(num + moji)
  演習問題5
 </div>
 
-演算をして結果を表示してみよう★★★★☆
+<span style="color:blue;">演算をして結果を表示してみよう★★★★☆</span>
 
 ```
 var num1 = 100
@@ -564,7 +567,7 @@ for(var i=3; i<5 ;i++){
  演習問題6
 </div>
 
-
+<span style="color:blue;"></span>
 
 <br/>
 <hr/>
