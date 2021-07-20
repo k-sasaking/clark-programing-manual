@@ -331,8 +331,8 @@ console.log(message)
 
 <span style="color:blue;">① ジャンケンの手を配列で定義し、表示しなさい。</span>
 
-- ヒント１:　ジャンケンの手（グー、チョキ、パー）を配列で定義しよう。（変数名はhandsを使用してください。）
-- ヒント２:　console.logでヒント１を表示
+- **ヒント１**:　ジャンケンの手（グー、チョキ、パー）を配列で定義しよう。（変数名はhandsを使用してください。）
+- **ヒント２**:　console.logでヒント１を表示
 
 ```
 var hands = []
@@ -341,8 +341,8 @@ console.log()
 
 <span style="color:blue;">② 自分の手が0の時が「グー」。1の時「チョキ」。2の時「パー」と出力しよう。</span>
 
-- ヒント１:　自分の手（my_hand）を定義する。（例: var my_hand = 0 )
-- ヒント２:　hands配列を使って、自分の手を表示してみよう。
+- **ヒント１**:　自分の手（my_hand）を定義する。（例: var my_hand = 0 )
+- **ヒント２**:　hands配列を使って、自分の手を表示してみよう。
 
 ```
 var hands = []
@@ -353,8 +353,8 @@ console.log()
 
 <span style="color:blue;">③ 相手の手をランダムで決めて表示しなさい。</span>
 
-- ヒント１:　相手の手（cp_hand）を乱数を使って定義する。
-- ヒント２:　hands配列を使って、相手の手を表示してみよう。
+- **ヒント１**:　相手の手（cp_hand）を乱数を使って定義する。
+- **ヒント２**:　hands配列を使って、相手の手を表示してみよう。
 
 ```
 var hands = []
@@ -368,8 +368,8 @@ console.log()
 
 <span style="color:blue;">④ ジャンケンの勝敗を決めよう。</span>
 
-- ヒント１:　自分の手（my_hand）と相手の手（cp_hand）を比較して、「勝ち、負け、あいこ」を判定（if文）
-- ヒント２:　「勝ち、負け、あいこ」に合わせてメッセージを表示しましょう。
+- **ヒント１**:　自分の手（my_hand）と相手の手（cp_hand）を比較して、「勝ち、負け、あいこ」を判定（if文）
+- **ヒント２**:　「勝ち、負け、あいこ」に合わせてメッセージを表示しましょう。
 
 ```
 var hands = []
@@ -393,10 +393,10 @@ console.log(message)
 
 <span style="color:blue;">④ HTMLファイルに組み込んでみましょう。</span>
 
-- やり方1：HTMLファイルをダウンロードしよう。<a href="janken-tmp.html" download="" class="btn btn-success">HTMLファイルダウンロード</a>
-- やり方2：画像をダウンロードしよう。<a href="janken.jpeg" download="" class="btn btn-success">画像ダウンロード</a>
-- やり方3：「uranai-tmp.htmlの上で右クリック」=> プログラムから開く => メモ帳
-- やり方4：
+- **やり方1**：HTMLファイルをダウンロードしよう。<a href="janken-tmp.html" download="" class="btn btn-success">HTMLファイルダウンロード</a>
+- **やり方2**：画像をダウンロードしよう。<a href="janken.jpeg" download="" class="btn btn-success">画像ダウンロード</a>
+- **やり方3**：「uranai-tmp.htmlの上で右クリック」=> プログラムから開く => メモ帳
+- **やり方4**：
 
 ファイルを開いたら、40行目あたりの以下のソースコードを変更して、アプリを完成させましょう。
 
