@@ -41,18 +41,18 @@
         /** >>>>>ここから編集  **/
 
         // ジャンケンの手を配列で定義
-        var hands = ["グー"]
+        var hands = []
         // 乱数で結果を取得
         var cp_hand = 0
         // 勝ち負けの判定
-        var result_message = ""
+        var message = ""
 
         /** ここまで編集<<<<<<<< **/
 
 
         // DOM操作で結果を表示
         cp.innerText = "CPの手は" + hands[cp_hand] + "です。"
-        result.innerText = result_message
+        result.innerText = message
     }
     </script>
     </html>

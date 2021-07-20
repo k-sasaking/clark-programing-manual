@@ -257,7 +257,7 @@ ageの値を変えてプログラムを動かしてみよう。
 - それ以外、"不明"
 
 ```
-var day =  2
+var day =  1
 var message = ""
 
 if(){
@@ -359,6 +359,7 @@ console.log()
 ```
 var hands = []
 var my_hand = 0
+// 乱数を作ってcp_handに代入
 var cp_hand = //乱数
 
 console.log()
@@ -373,9 +374,21 @@ console.log()
 ```
 var hands = []
 var my_hand = 0
+
+// 乱数を作ってcp_handに代入
 var cp_hand = //乱数
 
-console.log()
+var message = ""
+
+if(){
+
+}else if(){
+
+}else{
+
+}
+
+console.log(message)
 ```
 
 <span style="color:blue;">④ HTMLファイルに組み込んでみましょう。</span>
@@ -392,11 +405,11 @@ console.log()
 /** >>>>>ここから編集  **/
 
 // ジャンケンの手を配列で定義
-var hands = ["グー"]
+var hands = []
 // 乱数で結果を取得
 var cp_hand = 0
 // 勝ち負けの判定
-var result_message = ""
+var message = ""
 
 /** ここまで編集<<<<<<<< **/
 ```

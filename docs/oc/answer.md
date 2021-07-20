@@ -402,7 +402,7 @@ var number = Math.floor(random) % 3
 console.log(results[number])
 ```
 
-<span style="color:blue;">② プログラムを実行したら、「大吉、中吉、小吉、吉、末吉、凶、大凶」のいずれかを表示しなさい。</span>
+② プログラムを実行したら、「大吉、中吉、小吉、吉、末吉、凶、大凶」のいずれかを表示しなさい。
 
 - ヒント１:　①の配列を変更して実装してみよう。
 
@@ -414,7 +414,7 @@ console.log(results[number])
 ```
 
 
-<span style="color:blue;">③ プログラムを実行したら、結果に合わせてメッセージも表示する。</span>
+③ プログラムを実行したら、結果に合わせてメッセージも表示する。
 
 例）
 
@@ -438,7 +438,7 @@ console.log(messages[number])
 ```
 
 
-<span style="color:blue;">④ HTMLファイルに組み込んでみましょう。</span>
+④ HTMLファイルに組み込んでみましょう。
 
 - やり方1：HTMLファイルをダウンロードしよう。<a href="uranai-tmp.html" download="" class="btn btn-success">HTMLファイルダウンロード</a>
 - やり方2：画像をダウンロードしよう。<a href="uranai.jpeg" download="" class="btn btn-success">画像ダウンロード</a>
@@ -463,8 +463,157 @@ console.log(messages[number])
 <hr/>
 <br/>
 
+
 ## Day3
 
+### 演習問題1
+
+
+①以下のプログラムを作成しなさい。
+
+- dayが0の時、”平日”
+- dayが1の時、”休日”
+- それ以外、”不明”
+
+```
+var day =  1
+var message = ""
+
+if(day == 0){
+    message = "平日"
+}else if(day == 1){
+    message = "休日"
+}else{
+    message = "不明"
+}
+
+console.log(message)
+```
+
+② 以下のプログラムを作成しなさい。
+
+xが偶数の場合、「偶数」です。
+
+xが奇数の場合、「奇数」です。
+
+```
+var x =  6
+var message = ""
+
+if( x % 2 == 0){
+    message = "偶数"
+}else{
+    message = "奇数"
+}
+
+console.log(message)
+```
+
+③ 以下のプログラムを作成しなさい。
+
+(a)xが0未満かつyが0未満の場合、”掛け算をしたら正になります。”と表示する
+
+(b)xかyどちらか0未満の場合は、掛け算をしたら負になります。”と表示する
+
+(c)それ以外の時は、”掛け算をしたら正になります。”と表示する
+
+```
+var x = 10
+var y = -10
+
+var message = ""
+
+if( x < 0 && y < 0){
+    message ="掛け算をしたら正になります。"
+
+}else if(x < 0 || y < 0){
+    message ="掛け算をしたら負になります。"
+
+}else {
+    message ="掛け算をしたら正になります。"
+}
+
+console.log(message)
+```
+
+
+### ジャンケンゲームを作ろう
+
+① ジャンケンの手を配列で定義し、表示しなさい。
+
+ヒント１:　ジャンケンの手（グー、チョキ、パー）を配列で定義しよう。（変数名はhandsを使用してください。）
+
+ヒント２:　console.logでヒント１を表示
+
+```
+var hands = ["グー", "チョキ", "パー"]
+console.log(hands)
+```
+② 自分の手が0の時が「グー」。1の時「チョキ」。2の時「パー」と出力しよう。
+
+ヒント１:　自分の手（my_hand）を定義する。（例: var my_hand = 0 )
+
+ヒント２:　hands配列を使って、自分の手を表示してみよう。
+
+```
+var hands = ["グー", "チョキ", "パー"]
+var my_hand = 0
+
+console.log(hands[my_hand])
+```
+
+③ 相手の手をランダムで決めて表示しなさい。
+
+ヒント１:　相手の手（cp_hand）を乱数を使って定義する。
+
+ヒント２:　hands配列を使って、相手の手を表示してみよう。
+
+```
+var hands = ["グー", "チョキ", "パー"]
+var my_hand = 0
+
+// 乱数を作ってcp_handに代入
+var random = Math.random() * 10
+var cp_hand = Math.floor(random) % 3
+
+console.log(hands[cp_hand])
+```
+
+④ ジャンケンの勝敗を決めよう。
+
+ヒント１:　自分の手（my_hand）と相手の手（cp_hand）を比較して、「勝ち、負け、あいこ」を判定（if文）
+ヒント２:　「勝ち、負け、あいこ」に合わせてメッセージを表示しましょう。
+
+```
+var hands = []
+var my_hand = 0
+
+// 乱数を作ってcp_handに代入
+var cp_hand = //乱数
+
+var message = ""
+
+
+console.log()
+```
+④ HTMLファイルに組み込んでみましょう。
+
+やり方1：HTMLファイルをダウンロードしよう。HTMLファイルダウンロード
+やり方2：画像をダウンロードしよう。画像ダウンロード
+やり方3：「uranai-tmp.htmlの上で右クリック」=> プログラムから開く => メモ帳
+やり方4：
+ファイルを開いたら、40行目あたりの以下のソースコードを変更して、アプリを完成させましょう。
+
+/** >>>>>ここから編集  **/
+
+// ジャンケンの手を配列で定義
+var hands = ["グー"]
+// 乱数で結果を取得
+var cp_hand = 0
+// 勝ち負けの判定
+var message = ""
+
+/** ここまで編集<<<<<<<< **/
 
 
 <script>
