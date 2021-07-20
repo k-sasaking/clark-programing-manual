@@ -584,18 +584,30 @@ console.log(hands[cp_hand])
 ヒント１:　自分の手（my_hand）と相手の手（cp_hand）を比較して、「勝ち、負け、あいこ」を判定（if文）
 ヒント２:　「勝ち、負け、あいこ」に合わせてメッセージを表示しましょう。
 
+
 ```
-var hands = []
+var hands = ["グー", "チョキ", "パー"]
 var my_hand = 0
 
 // 乱数を作ってcp_handに代入
-var cp_hand = //乱数
+var random = Math.random() * 10
+var cp_hand = Math.floor(random) % 3
 
-var message = ""
+var message =""
 
+if (my_hand == cp_hand){
+    message = "引き分け"        
+}
+else if(my_hand == (cp_hand + 1) % 3){
+    message = "あなたの負け"        
+}
+else {
+    message = "あなたの勝ち"        
+}
 
-console.log()
+console.log(message)
 ```
+
 ④ HTMLファイルに組み込んでみましょう。
 
 やり方1：HTMLファイルをダウンロードしよう。HTMLファイルダウンロード
@@ -604,17 +616,31 @@ console.log()
 やり方4：
 ファイルを開いたら、40行目あたりの以下のソースコードを変更して、アプリを完成させましょう。
 
+```
 /** >>>>>ここから編集  **/
 
 // ジャンケンの手を配列で定義
-var hands = ["グー"]
-// 乱数で結果を取得
-var cp_hand = 0
+var hands = ["グー", "チョキ", "パー"]
+
+// 乱数を作ってcp_handに代入
+var random = Math.random() * 10
+var cp_hand = Math.floor(random) % 3
+
+
 // 勝ち負けの判定
 var message = ""
+if (my_hand == cp_hand){
+    message = "引き分け"        
+}
+else if(my_hand == (cp_hand + 1) % 3){
+    message = "あなたの負け"        
+}
+else {
+    message = "あなたの勝ち"        
+}
 
 /** ここまで編集<<<<<<<< **/
-
+```
 
 <script>
 (()=>{
