@@ -33,28 +33,19 @@
     <script>
     function janken(){
         // DOMの取得
-        var my_hand = parseInt(document.getElementById("hand").value);
         var result = document.getElementById("result")
         var cp = document.getElementById("cp")
+        var my_hand = parseInt(document.getElementById("hand").value);
 
 
         /** >>>>>ここから編集  **/
 
-        // 変数の定義
-        var hands = ["グー", "チョキ", "パー"]
+        // ジャンケンの手を配列で定義
+        var hands = ["グー"]
         // 乱数で結果を取得
-        var cp_hand = Math.floor(Math.random() * 10) % 3;
+        var cp_hand = 0
         // 勝ち負けの判定
         var result_message = ""
-        if (my_hand == cp_hand){
-            result_message = "引き分け"        
-        }
-        else if(my_hand == (cp_hand + 1) % 3){
-            result_message = "あなたの負け"        
-        }
-        else {
-            result_message = "あなたの勝ち"        
-        }
 
         /** ここまで編集<<<<<<<< **/
 
