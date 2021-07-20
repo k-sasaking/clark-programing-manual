@@ -77,7 +77,9 @@ Math.random()
 乱数をコンソールに出力してみましょう。
 
 ```
-console.log(Math.random())
+var random = Math.random()
+
+console.log(random)
 ```
 
 出力結果が分かる通り、乱数は0.xxxxxxという値をランダムに表示します。
@@ -96,7 +98,11 @@ console.log(Math.random())
 コードで書くと以下のように書くことができます。
 
 ```
-Math.floor(Math.random() * 10)
+var random = Math.random() * 10
+
+var result = Math.floor(random)
+
+console.log(result)
 ```
 
 **Math.floor(少数)は、少数を切り捨てるという意味です。**
@@ -114,9 +120,17 @@ n桁のランダムな数を作る
 
 
 ```
-Math.floor(Math.random() * 100) // 2桁
-Math.floor(Math.random() * 1000) // 3桁
-Math.floor(Math.random() * 10000) // 4桁
+var random2 = Math.random() * 100 // 2桁
+var random3 = Math.random() * 1000 // 3桁
+var random4 = Math.random() * 10000)// 4桁
+
+var result2 = Math.floor(random2) //小数点切り捨て
+var result3 = Math.floor(random3) //小数点切り捨て
+var result4 = Math.floor(random4) //小数点切り捨て
+
+console.log(result2)
+console.log(result3)
+console.log(result4)
 ```
 
 <br/>
@@ -129,7 +143,11 @@ Math.floor(Math.random() * 10000) // 4桁
 １桁の乱数を作る → ３で割った余りを出す
 
 ```
-Math.floor(Math.random() * 10) % 3
+var random = Math.random() * 10
+
+var result = Math.floor(random) % 3
+
+console.log(result)
 ```
 
 
@@ -138,7 +156,11 @@ Math.floor(Math.random() * 10) % 3
 乱数に3をかける
 
 ```
-Math.floor(Math.random() * 3)
+var random = Math.random() * 3
+
+var random = Math.floor()
+
+console.log(random)
 ```
 
 <br/>
@@ -215,6 +237,8 @@ members[番号]
 console.log(members[100])
 ```
 
+<br/>
+<br/>
 
 
 ### 配列の操作
@@ -243,6 +267,8 @@ members.push("田口さん")
 console.log(members)
 ```
 
+<br/>
+<br/>
 
 
 <div class="enshu">
@@ -280,9 +306,59 @@ console.log(countries[2])
 console.log(countries)
 ```
 
+<br/>
+<hr/>
+<br/>
+
+## 占いゲームを作ろう！
+
+<div class="enshu">
+ 課題
+</div>
+
+<span style="color:blue;">① プログラムを実行したら、「大当たり」「当たり」「ハズレ」が表示するプログラムを書きましょう。</span>
+
+- ヒント１:　乱数を使って、大当たり/当たり/ハズレの３つを表示しましょう。
+- ヒント２:　配列で「大当たり」「当たり」「ハズレ」を定義する。（配列の変数名をresultsにしてください。）
+
+<span style="color:blue;">② プログラムを実行したら、「大吉、中吉、小吉、吉、末吉、凶、大凶」のいずれかを表示しなさい。</span>
+
+- ヒント１:　①の配列を変更して実装してみよう。
 
 
+<span style="color:blue;">③ プログラムを実行したら、結果に合わせてメッセージも表示する。</span>
 
+例）
+
+大吉 -> 今日は今まで最高の一日になるでしょう。
+
+吉 -> 今日はいいことが起こるかも
+
+凶 -> いまいち一日。
+
+
+- ヒント１:　メッセージ用の配列を準備して、作ってみよう。（配列の名前をmessagesにしてください。）
+
+
+<span style="color:blue;">④ HTMLファイルに組み込んでみましょう。</span>
+
+- やり方1：HTMLファイルをダウンロードしよう。<a href="uranai-tmp.html" download="" class="btn btn-success">HTMLファイルダウンロード</a>
+- やり方2：画像をダウンロードしよう。<a href="uranai.jpeg" download="" class="btn btn-success">画像ダウンロード</a>
+- やり方3：「uranai-tmp.htmlの上で右クリック」=> プログラムから開く => メモ帳
+- やり方4：
+
+ファイルを開いたら、34行目あたりの以下のソースコードを変更して、アプリを完成させましょう。
+
+```
+    /** >>>>>ここから編集  **/
+    // 変数の表示
+    var results = ['大吉'];
+    var messages = ['おめでとう'];
+    // 乱数で結果を取得
+    var randnum = 0;
+
+    /** ここまで編集<<<<<<<< **/
+```
 
 <script>
 (()=>{
