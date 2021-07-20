@@ -122,7 +122,9 @@ console.log("ここに好きな文字を入れてね！")
  演習問題１
 </div>
 
-<span style="color:blue;">①「自分の名前」を出力しなさい。 ★☆☆☆☆</span>
+<a href="answer.html">　</a>
+
+<span style="color:blue;">①「自分の名前」を出力しなさい。 ★☆☆☆☆</span> 
 
 
 <br/>
