@@ -158,9 +158,9 @@ console.log(result)
 ```
 var random = Math.random() * 3
 
-var random = Math.floor()
+var result = Math.floor(random)
 
-console.log(random)
+console.log(result)
 ```
 
 <br/>
