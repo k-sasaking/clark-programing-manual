@@ -250,38 +250,51 @@ ageの値を変えてプログラムを動かしてみよう。
  演習問題1
 </div>
 
-①以下のプログラムを作成しなさい。
+<span style="color:blue;">①以下のプログラムを作成しなさい。</span>
 
-- dayが0の時、"日曜日"
-- dayが1の時、"月曜日"
-- dayが2の時、"火曜日"
-- dayが3の時、"水曜日"
-- dayが4の時、"木曜日"
-- dayが5の時、"金曜日"
-- dayが6の時、"土曜日"
+- dayが0の時、"平日"
+- dayが1の時、"休日"
 - それ以外、"不明"
 
 ```
-var day =  3
+var day =  2
+var message = ""
 
-/* ここにプログラムを記載 */
+if(){
+
+}else if(){
+
+}else{
+
+}
+
+console.log(message)
 ```
 
 
-② 以下のプログラムを作成しなさい。
+<span style="color:blue;">② 以下のプログラムを作成しなさい。</span>
 
-xが偶数の場合、偶数です。
+xが偶数の場合、「偶数」です。
 
-xが奇数の場合、奇数です。
+xが奇数の場合、「奇数」です。
+
 
 ```
-var x = 6
+var x =  6
+var message = ""
 
-/* ここにプログラムを記載 */
+if(){
+
+}else{
+
+}
+
+console.log(message)
 ```
 
 
-③ 以下のプログラムを作成しなさい。
+
+<span style="color:blue;">③ 以下のプログラムを作成しなさい。<span>
 
 (a)xが0未満かつyが0未満の場合、"掛け算をしたら正になります。"と表示する
 
@@ -293,7 +306,17 @@ var x = 6
 var x = 10
 var y = -10
 
-/*ここに処理を記載*/
+var message = ""
+
+if(){
+
+}else if(){
+
+}else {
+
+}
+
+console.log(message)
 ```
 
 <br/>
