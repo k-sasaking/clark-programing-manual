@@ -45,6 +45,19 @@
 <a href="janken.html" target="_blank">成果物例</a>
 
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<a href="answer.html">解答</a>
+
 <script>
 (()=>{
     var hd = document.getElementsByTagName('header')
