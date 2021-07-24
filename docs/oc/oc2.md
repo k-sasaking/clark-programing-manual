@@ -34,6 +34,15 @@
 
 # Day2: プロから学ぶjavascriptで占いゲーム
 
+<br/>
+
+### 講義動画
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eDItaL-BfW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/>
+
+
 本講義での最終成果物
 
 <a href="uranai.html" target="_blank">占いゲーム</a>
