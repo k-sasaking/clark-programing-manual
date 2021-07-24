@@ -32,7 +32,7 @@
 }
 </style>
 
-# Day3: プロから学ぶjavascriptで占いゲーム
+# Day3: プロから学ぶjavascriptでジャンケンゲーム
 
 本講義での最終成果物
 
