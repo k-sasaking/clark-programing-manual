@@ -318,16 +318,27 @@ console.log(countries)
  課題
 </div>
 
-<span style="color:blue;">① プログラムを実行したら、「大当たり」「当たり」「ハズレ」が表示するプログラムを書きましょう。</span>
+<span style="color:blue;">① 「大当たり」「当たり」「ハズレ」の配列を表示するプログラムを書きましょう。</span>
 
-- **ヒント１**:　乱数を使って、大当たり/当たり/ハズレの３つを表示しましょう。（変数名はrandomを使用してください。）
-- **ヒント２**:　配列で「大当たり」「当たり」「ハズレ」を定義する。（配列の変数名をresultsにしてください。）
+- **ヒント**:　配列で「大当たり」「当たり」「ハズレ」を定義する。（配列の変数名をresultsにしてください。）
 
-<span style="color:blue;">② プログラムを実行したら、「大吉、中吉、小吉、吉、末吉、凶、大凶」のいずれかを表示しなさい。</span>
 
-- **ヒント１**:　①の配列を変更して実装してみよう。
+<span style="color:blue;">② 0,1,2のいずれかのランダムの数を出力しましょう。</span>
 
-<span style="color:blue;">③ プログラムを実行したら、結果に合わせてメッセージも表示する。</span>
+- **ヒント**:　乱数を使って、0,1,2を表示しましょう。（最後の結果を変数numberに入れて出力してください。）
+
+
+<span style="color:blue;">③ プログラムを実行したら、「大当たり、当たり、ハズレ」のいずれかを表示しなさい。</span>
+
+- **ヒント**:　①と②を合わせて使うとできます。
+
+
+<span style="color:blue;">④ プログラムを実行したら、「大吉、中吉、小吉、吉、末吉、凶、大凶」のいずれかを表示しなさい。</span>
+
+- **ヒント１**:　③の配列を変更して実装してみよう。
+
+
+<span style="color:blue;">⑤ プログラムを実行したら、結果に合わせてメッセージも表示する。</span>
 
 例）
 
@@ -341,7 +352,7 @@ console.log(countries)
 - **ヒント１**:　メッセージ用の配列を準備して、作ってみよう。（配列の名前をmessagesにしてください。）
 
 
-<span style="color:blue;">④ HTMLファイルに組み込んでみましょう。</span>
+<span style="color:blue;">⑥ HTMLファイルに組み込んでみましょう。</span>
 
 - **やり方1**：HTMLファイルをダウンロードしよう。<a href="uranai-tmp.html" download="" class="btn btn-success">HTMLファイルダウンロード</a>
 - **やり方2**：画像をダウンロードしよう。<a href="uranai.jpeg" download="" class="btn btn-success">画像ダウンロード</a>
@@ -356,7 +367,7 @@ console.log(countries)
     var results = ['大吉'];
     var messages = ['おめでとう'];
     // 乱数で結果を取得
-    var randnum = 0;
+    var number = 0;
 
     /** ここまで編集<<<<<<<< **/
 ```
