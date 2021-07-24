@@ -671,6 +671,14 @@ for(var i=3; i<5 ;i++){
 ○
 ```
 
+<br/>
+<br/>
+
+### 激ムズ問題解説動画
+
+<br/>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HRelEQjeBwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <script>
 (()=>{
