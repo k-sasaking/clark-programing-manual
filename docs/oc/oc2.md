@@ -364,8 +364,8 @@ console.log(countries)
 ```
     /** >>>>>ここから編集  **/
     // 変数の表示
-    var results = ['大吉'];
-    var messages = ['おめでとう'];
+    var results = [];
+    var messages = [];
     // 乱数で結果を取得
     var number = 0;
 
