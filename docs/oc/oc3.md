@@ -134,7 +134,7 @@ if(age< 20){
     message = "あなたは子供です"
 }
 else {
-    message = "あなたは子供です"
+    message = "あなたは大人です"
 }
 
 console.log(message)
