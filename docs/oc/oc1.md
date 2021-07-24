@@ -34,6 +34,14 @@
 
 # Day1: プロから学ぶjavscriptでプログラミング
 
+<br/>
+
+### 講義動画
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p-yH_HIJE-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/>
+
 本講義ではJavascriptを勉強します。
 
 <br/>
