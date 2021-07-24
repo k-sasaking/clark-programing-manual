@@ -29,8 +29,8 @@
     function uranai(){
 
         // DOMの取得
-        var result = document.getElementById("result").innerText
-        var message = document.getElementById("message").innerText
+        var result = document.getElementById("result")
+        var message = document.getElementById("message")
 
 
         // 変数の表示
@@ -41,8 +41,8 @@
 
 
         // 結果をDOM操作で表示
-        result = results[number];
-        message = messages[number];
+        result.innerText = results[number];
+        message.innerText = messages[number];
     }
     </script>
     </html>

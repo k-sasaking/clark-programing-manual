@@ -29,21 +29,22 @@
     function uranai(){
 
         // DOMの取得
-        var result = document.getElementById("result").innerText
-        var message = document.getElementById("message").innerText
+        var result = document.getElementById("result")
+        var message = document.getElementById("message")
 
         /** >>>>>ここから編集  **/
         // 変数の表示
-        var results = ['大吉'];
-        var messages = ['おめでとう'];
+        var results = [];
+        var messages = [];
+
         // 乱数で結果を取得
         var number = 0;
 
         /** ここまで編集<<<<<<<< **/
 
         // 結果を表示
-        result = results[number];
-        message = messages[number];
+        result.innerText = results[number];
+        message.innerText = messages[number];
     }
     </script>
     </html>
