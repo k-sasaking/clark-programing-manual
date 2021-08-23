@@ -125,15 +125,13 @@ section ul {
         <p class="text-center">↓</p>
         <p class="text-center"><a href="homepage.html" target="_blank">自己紹介HP製作</a> <span style="color:red;"> New 7/14</span></p>
         <p class="text-center">↓</p>
-        <p class="text-center">JavaScript体験編 （<a href="#paizaRange">Paizaの学習範囲</a>）<br/>（全てのチャプター）</p>
-        <p class="text-center">↓</p>
         <p class="text-center">JavaScript入門編 （<a href="#paizaRange">Paizaの学習範囲</a>）<br/>（全てのチャプター）</p>
         <p class="text-center">↓</p>
-        <p class="text-center">JavaScript 基礎（佐々木/石井の教材）関数＋DOM操作</p>
+        <p class="text-center">JavaScript 基礎 関数＋DOM操作</p>
         <p class="text-center">↓</p>
-        <p class="text-center">JavaScript 実践（佐々木/石井の教材）</p>
+        <p class="text-center">JavaScript 実践 ゲームづくり</p>
         <p class="text-center">↓</p>
-        <p class="text-center">個人/グループ製作（HTML＆CSS＆JavaScript）</p>
+        <p class="text-center">コースごとに実習</p>
     </div>
 </div>
 
@@ -151,7 +149,7 @@ section ul {
             <br/>
             <li> <p>招待状のメール or <a href="https://join.slack.com/t/clark-programing/shared_invite/zt-pkyw2cmc-4GFSjpdGeAsmGxC5RTQR3w" target="_blank">こちらのリンク</a>から clark-programingの招待ページへアクセス</p>
             <br/>
-            <p>※招待メールが送られてきてない場合は、石井先生or佐々木先生に伝えてください。</p>
+            <p>※招待メールが送られてきてない場合は、佐々木先生に伝えてください。</p>
             <br/>
             <p>招待メールの場合は、<b>JoinNow</b>をクリック</p>
             <img src="img/slack_join_now.png" width="500">
@@ -305,11 +303,6 @@ section ul {
         </tr>
         <tr>
             <td>3</td>
-            <td><a href="https://paiza.jp/works/javascript/trial" target="_blank">Javascript体験</a></td>
-            <td>全てのレッスン</td>
-        </tr>
-        <tr>
-            <td>4</td>
             <td><a href="https://paiza.jp/works/js/primer" target="_blank">Javascript入門</a></td>
             <td>全てのレッスン</td>
         </tr>
@@ -455,7 +448,7 @@ section ul {
             <li>「登録済みのメールアドレスを入力」し、「再設定メール送付」をする</li>
             <li>メールにログインをし、URLからパスワードを再設定する</li>
         </ol>
-        <p>※上記の方法でダメな場合は、石井先生に相談してください。</p>
+        <p>※上記の方法でダメな場合は、佐々木先生に相談してください。</p>
     </div>
 </div>
 
@@ -463,7 +456,7 @@ section ul {
 <div class="collapse m-3" id="qa2">
     <div class="border p-3">
         <ol>
-            <li>石井先生に相談してください。</li>
+            <li>佐々木先生に相談してください。</li>
         </ol>
     </div>
 </div>
@@ -473,7 +466,7 @@ section ul {
     <div class="border p-3">
         <ol>
             <li>
-            石井先生か佐々木先生に相談してください。<br/>
+            佐々木先生に相談してください。<br/>
             もしくは、<a href="https://join.slack.com/t/clark-programing/shared_invite/zt-pkyw2cmc-4GFSjpdGeAsmGxC5RTQR3w" target="_blank">こちらのリンク</a>から招待メールなしで参加できます。
             </li>
         </ol>
