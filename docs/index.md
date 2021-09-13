@@ -436,11 +436,29 @@ section ul {
     </div>
 </div>
 
-<a data-toggle="collapse" href="#original" aria-expanded="true" aria-controls="original"> Javascript講座 </a><span style="color:red;"> New 9/6</span>
-<div class="collapse m-3" id="original">
+<a data-toggle="collapse" href="#original2" aria-expanded="true" aria-controls="original2"> Javascript講座 </a><span style="color:red;"> New 9/6</span>
+<div class="collapse m-3" id="original2">
     <div class="border p-3">
       <ul>
         <li><a href="https://k-sasaking.github.io/js-learning/basic.html">Javascript講座 基礎編</a></li>
+      </ul>
+    </div>
+</div>
+
+<a data-toggle="collapse" href="#original2" aria-expanded="true" aria-controls="original2"> Javascript追加講座 </a><span style="color:red;"> New 9/14</span>
+<div class="collapse m-3" id="original2">
+    <div class="border p-3">
+      <ul>
+        <li><a href="https://k-sasaking.github.io/js-learning/basic7.html">Javascript講座 追加講座</a></li>
+      </ul>
+    </div>
+</div>
+
+<a data-toggle="collapse" href="#original3" aria-expanded="true" aria-controls="original3"> JavascriptDOM講座 </a><span style="color:red;"> New 9/14</span>
+<div class="collapse m-3" id="original3">
+    <div class="border p-3">
+      <ul>
+        <li><a href="https://k-sasaking.github.io/js-learning/dom.html">Javascript講座 DOM編</a></li>
       </ul>
     </div>
 </div>
