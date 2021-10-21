@@ -445,8 +445,8 @@ section ul {
     </div>
 </div>
 
-<a data-toggle="collapse" href="#original2" aria-expanded="true" aria-controls="original2"> Javascript追加講座 </a><span style="color:red;"> New 9/14</span>
-<div class="collapse m-3" id="original2">
+<a data-toggle="collapse" href="#original3" aria-expanded="true" aria-controls="original3"> Javascript追加講座 </a><span style="color:red;"> New 9/14</span>
+<div class="collapse m-3" id="original3">
     <div class="border p-3">
       <ul>
         <li><a href="https://k-sasaking.github.io/js-learning/basic7.html">Javascript講座 追加講座</a></li>
@@ -454,11 +454,21 @@ section ul {
     </div>
 </div>
 
-<a data-toggle="collapse" href="#original3" aria-expanded="true" aria-controls="original3"> JavascriptDOM講座 </a><span style="color:red;"> New 9/14</span>
-<div class="collapse m-3" id="original3">
+<a data-toggle="collapse" href="#original4" aria-expanded="true" aria-controls="original4"> JavascriptDOM講座 </a><span style="color:red;"> New 9/14</span>
+<div class="collapse m-3" id="original4">
     <div class="border p-3">
       <ul>
         <li><a href="https://k-sasaking.github.io/js-learning/dom.html">Javascript講座 DOM編</a></li>
+      </ul>
+    </div>
+</div>
+
+
+<a data-toggle="collapse" href="#original5" aria-expanded="true" aria-controls="original5"> JavascriptD講座 GAME編 </a><span style="color:red;"> New 10/21</span>
+<div class="collapse m-3" id="original5">
+    <div class="border p-3">
+      <ul>
+        <li><a href="https://k-sasaking.github.io/js-learning/game.html">Javascript講座 GAME編</a></li>
       </ul>
     </div>
 </div>
