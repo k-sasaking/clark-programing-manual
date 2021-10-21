@@ -464,7 +464,7 @@ section ul {
 </div>
 
 
-<a data-toggle="collapse" href="#original5" aria-expanded="true" aria-controls="original5"> JavascriptD講座 GAME編 </a><span style="color:red;"> New 10/21</span>
+<a data-toggle="collapse" href="#original5" aria-expanded="true" aria-controls="original5"> Javascript講座 GAME編 </a><span style="color:red;"> New 10/21</span>
 <div class="collapse m-3" id="original5">
     <div class="border p-3">
       <ul>
